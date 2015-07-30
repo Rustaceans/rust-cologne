@@ -13,13 +13,11 @@ layout: null
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.posts limit:10 %}
       <item>
-        {% capture title %}
-            {% include event-title.html event=post %}
-        {% endcapture %}
+        {% capture title %}{% include event-title.html event=post %}{% endcapture %}
         {% capture content %}
             {% include event.html event=post %}
         {% endcapture %}
-        <title>{{ title | xml_escape }}</title>
+        <title>{{ title | strip_newlines | xml_escape }}</title>
         <description>{{ content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
