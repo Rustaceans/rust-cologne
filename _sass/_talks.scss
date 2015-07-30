@@ -1,0 +1,23 @@
+.talk-item {
+  @extend %half;
+
+  &:before {
+    display: block;
+    background-color: $color-fg;
+    color: $color-bg;
+    padding: $spacing-small;
+    margin-bottom: $spacing-small;
+  }
+}
+
+// Talk Header
+
+.talk-list {
+  counter-reset: talk-counter;
+  list-style: none;
+}
+
+.talk-item:before {
+  counter-increment: talk-counter;
+  content: "Talk #" counter(talk-counter, decimal);
+}

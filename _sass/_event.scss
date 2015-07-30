@@ -1,0 +1,12 @@
+.event {
+  margin: $spacing 0;
+}
+
+.event-title,
+.event time,
+.event address {
+  display: block;
+  margin-bottom: $spacing;
+}
+
+@import "talks";

@@ -1,0 +1,28 @@
+<div itemscope itemtype="http://schema.org/Event">
+  <header class="event-header">
+    <h1 class="event-title">
+      <a class="event-link" href="{{ event.url | prepend: site.baseurl }}" itemprop="name">
+        {{ event.title }}
+      </a>
+    </h1>
+    <p class="event-meta">
+      <time datetime="{{ event.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="startDate">
+        {{ event.date | date: "%d %B %Y %H:%M" }}
+      </time>
+    </p>
+  </header>
+
+  <address itemprop="address" itemscope itemtype="http://schema.org/Place">
+    <span itemprop="name">{{event.location.name}}</span><br/>
+    <span itemprop="streetAddress">{{event.location.street}}</span><br/>
+    <span itemprop="addressLocality">{{event.location.city}}</span><br/>
+  </address>
+  
+  <ol class="talk-list">
+  {% for talk in event.talks %}
+    <li class="talk-item">
+      <q>{{talk.title}}</q> by <cite>{{talk.speaker}}</cite>
+    </li>
+  {% endfor %}
+  </ol>
+</div>

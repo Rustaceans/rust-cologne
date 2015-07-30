@@ -1,0 +1,12 @@
+body {
+  background-color: $color-bg;
+  color: $color-fg;
+
+  padding: 0 $spacing;
+}
+
+section.home,
+article.page,
+article.event {
+  @extend %row;
+}

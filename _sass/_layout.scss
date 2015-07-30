@@ -1,0 +1,42 @@
+@mixin clearfix {
+  *zoom: 1;
+  &:before, &:after {
+    display: table;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+%clearfix {
+  @include clearfix;
+}
+
+%row {
+  max-width: $max-width;
+  margin: 0 auto;
+  @extend %clearfix;
+}
+
+%half {
+  width: 50%;
+  float: left;
+
+  @media screen and (min-width: $breakpoint-one-column + 0.1em) {
+    &:nth-child(2n+1) {
+      clear: left;
+      padding-right: $spacing;
+    }
+    &:nth-child(2n) {
+      clear: right;
+      padding-left: $spacing;
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-one-column) {
+    width: 100%;
+    float: none;
+    @include clearfix;
+  }
+}

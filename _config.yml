@@ -1,0 +1,20 @@
+# Site settings
+title: rustaceans.cologne
+description: "Rust Meetups in the area of Cologne/Bonn, Germany"
+baseurl: ""
+url: "http://rustaceans.cologne/"
+twitter_username: rustcologne
+github_username:  killercup
+
+# Build settings
+markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "event"
+
+# Content settings
+future: true # we use dates for the actual meetup time, not the post publication time
+timezone: "Europe/Berlin"

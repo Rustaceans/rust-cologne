@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<section class="home" role="main">
+  {% assign event = site.posts.first %}
+  <article class="event is-current">
+    {% include event.html %}
+  </article>
+</section>

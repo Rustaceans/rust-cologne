@@ -1,0 +1,8 @@
+.site-header {
+  @extend %row;
+  margin-bottom: $spacing;
+
+  background-color: $color-fg;
+  color: $color-bg;
+  padding: 0 $spacing;
+}
