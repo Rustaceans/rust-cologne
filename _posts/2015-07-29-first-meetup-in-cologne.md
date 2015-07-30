@@ -11,4 +11,5 @@ talks:
   speaker: "Ismail Khoffi"
 - title: "An introduction to Nickel.rs, VisualRust and the FFI interface"
   speaker: "Harris Brakmic"
+  slides: "http://files.meetup.com/18637995/Presentation_29.07.2015.pdf"
 ---
