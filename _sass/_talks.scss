@@ -4,6 +4,7 @@
 
   .talk-item {
     @extend %half;
+    margin-bottom: $spacing;
   }
 }
 
@@ -13,7 +14,7 @@
   }
 }
 
-.talk-item {
+.talk-item .talk {
   &:before {
     display: block;
     background-color: $color-fg;
@@ -25,6 +26,10 @@
 
 .talk-header {
   margin-bottom: $spacing;
+
+  .talk-title {
+    margin-top: $spacing-small;
+  }
 }
 
 // Talk Header with Counter
@@ -33,7 +38,7 @@
   counter-reset: talk-counter;
   list-style: none;
 
-  .talk-item:before {
+  .talk-item .talk:before {
     counter-increment: talk-counter;
     content: "Talk #" counter(talk-counter, decimal);
   }
