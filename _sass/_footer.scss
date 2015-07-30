@@ -6,5 +6,11 @@
 
   .wrapper {
     @extend %row;
+    @extend %clearfix;
+  }
+
+  .site-nav,
+  .social-links {
+    @extend %half;
   }
 }
