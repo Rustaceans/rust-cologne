@@ -24,4 +24,17 @@ layout: default
     <p><a href="mailto:{{site.email}}">Help us!</a></p>
     {% endif %}
   </section>
+
+{% if current %}
+  {% assign older = site.posts | shift %}
+{% else %}
+  {% assign older = site.posts %}
+{% endif %}
+
+{% if older.size > 0 %}
+  <section class="prev-meetup">
+    <p class="prev-meetup-byline">Previous Meetup:</p>
+    {% include event-inline.html event=older.first %}
+  </section>
+{% endif %}
 </div>

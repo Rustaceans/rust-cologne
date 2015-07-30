@@ -2,15 +2,13 @@
   <li class="talk-item">
     <article class="talk" id="talk-{{forloop.index}}" itemprop="workPerformed" itemscope itemtype="http://schema.org/AudioObject">
       <header class="talk-header">
-        <h1 itemprop="name">{{talk.title}}</h1>
+        <h1 class="talk-title" itemprop="name">{{talk.title}}</h1>
         <p>
           by <em class="talk-speaker" itemprop="author">{{talk.speaker}}</em>
+          {% if talk.slides %}
+            &mdash; <a itemprop="isBasedOnUrl" href="{{ talk.slides }}">Slides</a>
+          {% endif %}
         </p>
-        {% if talk.slides %}
-        <p>
-          <a href="{{ talk.slides }}">Slides</a>
-        </p>
-        {% endif %}
       </header>
       {% if include.show_abstract %}{% if talk.abstract %}
       <div class="talk-abstract">

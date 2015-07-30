@@ -10,7 +10,7 @@ $spacing-large: 1.4em;
 $breakpoint-one-column: 14em;
 
 $color-bg: #FFF;
-$color-fg: #222;
+$color-fg: #333;
 $color-ac: #FF7500; // orange from /r/rust
 $color-lo: #ccc;
 
@@ -23,5 +23,6 @@ $color-lo: #ccc;
   "event",
   "talks",
   "next-meetup",
+  "prev-meetup",
   "template"
 ;
