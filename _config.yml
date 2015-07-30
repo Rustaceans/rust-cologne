@@ -1,7 +1,7 @@
 # Site settings
 title: rustaceans.cologne
 description: "Rust User Group in the area of Cologne/Bonn, Germany"
-baseurl: ""
+baseurl: "https://killercup.github.io/rust-cologne"
 url: "http://rustaceans.cologne/"
 twitter_username: rustcologne
 github_username:  killercup

@@ -10,6 +10,6 @@ Each file in `_post` is one meetup event. See the example in `_drafts` to see wh
 
 Get the correct Jekyll version with `gem install github-pages` (requires Ruby 2).
 
-Then, start a server with `jekyll server -w`. It rebuilds your site when you change files.
+Then, start a server with `jekyll server -w --baseUrl=""`. It rebuilds your site when you change files.
 
-You can enable drafts of posts by using `--drafts`.
+You can enable drafts of posts by adding `--drafts`.
