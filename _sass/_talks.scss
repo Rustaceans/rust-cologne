@@ -1,6 +1,19 @@
-.talk-item {
-  @extend %half;
+.talk-list.is-fancy {
+  @extend %clearfix;
+  margin-bottom: $spacing;
 
+  .talk-item {
+    @extend %half;
+  }
+}
+
+.talk-list.is-short {
+  li {
+    margin-left: 1.3em;
+  }
+}
+
+.talk-item {
   &:before {
     display: block;
     background-color: $color-fg;
@@ -10,14 +23,18 @@
   }
 }
 
-// Talk Header
-
-.talk-list {
-  counter-reset: talk-counter;
-  list-style: none;
+.talk-header {
+  margin-bottom: $spacing;
 }
 
-.talk-item:before {
-  counter-increment: talk-counter;
-  content: "Talk #" counter(talk-counter, decimal);
+// Talk Header with Counter
+
+.talk-list.is-fancy {
+  counter-reset: talk-counter;
+  list-style: none;
+
+  .talk-item:before {
+    counter-increment: talk-counter;
+    content: "Talk #" counter(talk-counter, decimal);
+  }
 }

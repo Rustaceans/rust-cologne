@@ -1,6 +1,10 @@
 .site-footer {
-  @extend %row;
   margin-top: $spacing-large;
   border-top: 1px solid $color-lo;
   padding-top: $spacing-large;
+  padding-bottom: $spacing-large;
+
+  .wrapper {
+    @extend %row;
+  }
 }

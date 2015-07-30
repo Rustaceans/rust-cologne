@@ -1,0 +1,34 @@
+---
+layout: default
+title: Archive
+permalink: /archive/
+---
+<article class="page" role="main">
+  <h2>All Meetups</h2>
+
+  <ul class="event-list is-short">
+    {% for event in site.posts %}
+    <li class="event-item">
+      <article class="event is-inline">
+        <header>
+          <h1>
+            <a class="event-link" href="{{ event.url | prepend: site.baseurl }}" itemprop="name">
+              {{ event.title }}
+            </a>
+          </h1>
+          <p class="event-meta">
+            <time datetime="{{ event.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="startDate">
+              {{ event.date | date: "%d %B %Y %H:%M" }}
+            </time>
+            at {{ event.location.name }}
+          </p>
+        </header>
+        
+        <ol class="talk-list is-short">
+        {% include talk-list.html talks=event.talks show_abstract=false %}
+        </ol>
+      </article>
+    </li>
+    {% endfor %}
+  </ul>
+</article>

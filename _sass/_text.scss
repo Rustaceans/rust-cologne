@@ -1,6 +1,6 @@
 body {
-  font-family: "Fira Sans", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 18px;
   line-height: 1.3;
   color: $color-fg;
 }
@@ -8,6 +8,10 @@ body {
 a {
   color: $color-ac;
   text-decoration: none;
+}
+
+p {
+  margin-bottom: $spacing-small;
 }
 
 html,
@@ -21,6 +25,8 @@ table {
 h1,
 h2,
 h3 {
+  margin-top: $spacing;
+  margin-bottom: $spacing-small;
   -webkit-font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;
   -moz-font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;
   font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;
@@ -30,4 +36,8 @@ time {
   -webkit-font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0;
   -moz-font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0;
   font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0;
+}
+
+address {
+  font-style: normal;
 }

@@ -1,9 +1,27 @@
 ---
 layout: default
 ---
-<section class="home" role="main">
-  {% assign event = site.posts.first %}
-  <article class="event is-current">
-    {% include event.html %}
-  </article>
-</section>
+<div class="page-home" role="main">
+  <section class="next-meetup">
+    {% comment %}
+      Find the next meetup in the future
+    {% endcomment %}
+    {% assign curDate = site.time | date: '%s' %}
+    {% for post in site.posts %}
+      {% assign postStartDate = post.date | date: '%s' %}
+      {% if postStartDate >= curDate %}
+        {% assign current = post %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% if current %}
+    <p class="next-meetup-byline">Next Meetup:</p>
+    <article class="event is-current">
+      {% include event.html event=current skip_date=true %}
+    </article>
+    {% else %}
+    <h1>Future meetups still in planning phase&hellip;</h1>
+    <p><a href="mailto:{{site.email}}">Help us!</a></p>
+    {% endif %}
+  </section>
+</div>

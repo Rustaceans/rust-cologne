@@ -17,6 +17,10 @@
   max-width: $max-width;
   margin: 0 auto;
   @extend %clearfix;
+
+  @media screen and (max-width: $max-width) {
+    padding: 0 $spacing;
+  }
 }
 
 %half {

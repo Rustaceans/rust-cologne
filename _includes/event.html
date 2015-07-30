@@ -1,28 +1,29 @@
-<div itemscope itemtype="http://schema.org/Event">
+{% assign event = include.event %}
+<div itemscope itemtype="http://schema.org/SocialEvent">
   <header class="event-header">
     <h1 class="event-title">
       <a class="event-link" href="{{ event.url | prepend: site.baseurl }}" itemprop="name">
-        {{ event.title }}
+        {% include event-title.html event=event %}
       </a>
     </h1>
+    {% unless include.skip_date %}
     <p class="event-meta">
       <time datetime="{{ event.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="startDate">
         {{ event.date | date: "%d %B %Y %H:%M" }}
       </time>
     </p>
+    {% endunless %}
   </header>
 
-  <address itemprop="address" itemscope itemtype="http://schema.org/Place">
-    <span itemprop="name">{{event.location.name}}</span><br/>
-    <span itemprop="streetAddress">{{event.location.street}}</span><br/>
-    <span itemprop="addressLocality">{{event.location.city}}</span><br/>
+  <address itemprop="location" itemscope itemtype="http://schema.org/Place">
+    <p itemprop="name">{{event.location.name}}</p>
+    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+      <p itemprop="streetAddress">{{event.location.street}}</p>
+      <p itemprop="addressLocality">{{event.location.city}}</p>
+    </div>
   </address>
   
-  <ol class="talk-list">
-  {% for talk in event.talks %}
-    <li class="talk-item">
-      <q>{{talk.title}}</q> by <cite>{{talk.speaker}}</cite>
-    </li>
-  {% endfor %}
+  <ol class="talk-list is-fancy">
+  {% include talk-list.html talks=event.talks show_abstract=true %}
   </ol>
 </div>

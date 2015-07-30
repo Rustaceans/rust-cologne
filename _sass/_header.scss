@@ -1,8 +1,14 @@
 .site-header {
-  @extend %row;
+  padding-top: $spacing-small;
+  padding-bottom: $spacing;
+  border-bottom: 1px solid $color-lo;
   margin-bottom: $spacing;
+  
+  .wrapper {
+    @extend %row;
+  }
+}
 
-  background-color: $color-fg;
-  color: $color-bg;
-  padding: 0 $spacing;
+.site-title {
+  font-size: 2em;
 }

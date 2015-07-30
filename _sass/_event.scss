@@ -5,8 +5,15 @@
 .event-title,
 .event time,
 .event address {
-  display: block;
   margin-bottom: $spacing;
 }
 
-@import "talks";
+.more-events {
+  margin-top: $spacing-large;
+  border-top: 1px solid $color-lo;
+  padding-top: $spacing-large;
+}
+
+.event-list {
+  list-style: none;
+}
