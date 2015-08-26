@@ -21,7 +21,7 @@ layout: default
     </article>
     {% else %}
     <h1>We are currently planning our next meetup</h1>
-    <p><a href="mailto:{{site.email}}">Help us!</a></p>
+    <p><a href="mailto:{{site.email}}?subject={{ "Next Rust Meetup" | uri_escape }}">Help us!</a></p>
     {% endif %}
   </section>
 
