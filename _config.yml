@@ -5,6 +5,7 @@ baseurl: ""
 url: "http://rustaceans.cologne/"
 twitter_username: rustcologne
 github_username:  killercup
+email: rust.cologne@gmail.com
 
 # Build settings
 permalink: "/:year/:month/:day/:title.html"
