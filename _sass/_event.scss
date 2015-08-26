@@ -2,6 +2,10 @@
   margin: $spacing 0;
 }
 
+.event-title {
+  font-size: 1.5rem;
+}
+
 .event-title,
 .event time,
 .event address {
@@ -16,4 +20,8 @@
 
 .event-list {
   list-style: none;
+
+  .event-title {
+    font-size: 1rem;
+  }
 }

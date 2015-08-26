@@ -10,5 +10,11 @@
 }
 
 .site-title {
-  font-size: 2em;
+  word-wrap: break-word;
+  font-size: 2rem;
+  padding-top: 1rem;
+
+  @media screen and (max-width: 25rem) {
+    font-size: 1.5rem;
+  }
 }
