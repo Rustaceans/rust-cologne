@@ -8,6 +8,13 @@
     <meta name="description" content="{{ site.description }}"/>
 
     <link rel="stylesheet" href="{{ "/styles.css" | prepend: site.baseurl }}"/>
-    <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css" />
+    
+    <script type="text/javascript">
+      WebFontConfig = {
+        google: { families: [ 'Fira+Sans:400,500,400italic:latin' ] }
+      };
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" async></script>
+
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | replace:'//','/' }}"/>
 </head>
