@@ -16,5 +16,5 @@
     </script>
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js" async></script>
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | replace:'//','/' }}"/>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | replace:'//','/' | prepend: site.baseurl | prepend: site.url }}"/>
 </head>
