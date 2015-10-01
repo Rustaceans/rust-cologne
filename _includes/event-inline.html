@@ -6,6 +6,9 @@
         {% include event-title.html event=event %}
       </a>
     </h1>
+    {% if event.meetupcom %}<div class="event-meetupcom">
+      <a href="{{ event.meetupcom }}" itemprop="sameAs">This event on Meetup.com</a>
+    </div>{% endif %}
   </header>
   
   <ol class="talk-list is-short">
