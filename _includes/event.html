@@ -1,5 +1,5 @@
 {% assign event = include.event %}
-<div itemscope itemtype="http://schema.org/SocialEvent">
+<div itemscope itemtype="http://schema.org/SocialEvent" itemid="{{ event.url | prepend: site.baseurl }}">
   <header class="event-header">
     <h1 class="event-title">
       <a class="event-link" href="{{ event.url | prepend: site.baseurl }}" itemprop="name">
