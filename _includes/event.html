@@ -25,8 +25,17 @@
       <p itemprop="addressLocality">{{event.location.city}}</p>
     </div>
   </address>
-  
+
+  {% if event.talks %}
   <ol class="talk-list is-fancy">
   {% include talk-list.html talks=event.talks show_abstract=true %}
   </ol>
+  {% else %}
+  {% if include.call_for_talks %}
+  <p><em>
+    We're currently looking for talks.
+    <a href="mailto:{{site.email}}?subject={{ "Talk at Rust Meetup" | uri_escape }}">Help us!</a>
+  </em></p>
+  {% endif %}
+  {% endif %}
 </div>

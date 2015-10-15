@@ -17,7 +17,7 @@ layout: default
     {% if current %}
     <p class="next-meetup-byline">Next Meetup:</p>
     <article class="event is-current">
-      {% include event.html event=current skip_date=true %}
+      {% include event.html event=current skip_date=true call_for_talks=true %}
     </article>
     {% else %}
     <h1>We are currently planning our next meetup</h1>
