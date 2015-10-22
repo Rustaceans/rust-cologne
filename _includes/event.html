@@ -6,25 +6,36 @@
         {% include event-title.html event=event %}
       </a>
     </h1>
-    {% if event.meetupcom %}<div class="event-meetupcom">
-      <a href="{{ event.meetupcom }}" itemprop="sameAs">This event on Meetup.com</a>
-    </div>{% endif %}
-    {% unless include.skip_date %}
-    <p class="event-meta">
-      <time datetime="{{ event.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="startDate">
-        {{ event.date | date: "%d %B %Y %H:%M" }}
-      </time>
-    </p>
-    {% endunless %}
   </header>
 
-  <address itemprop="location" itemscope itemtype="http://schema.org/Place">
-    <p itemprop="name">{{event.location.name}}</p>
-    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-      <p itemprop="streetAddress">{{event.location.street}}</p>
-      <p itemprop="addressLocality">{{event.location.city}}</p>
+  <div class="event-meta">
+    <div class="event-meta-data">
+      {% if event.meetupcom %}<div class="event-meetupcom">
+        <a href="{{ event.meetupcom }}" itemprop="sameAs">This event on Meetup.com</a>
+      </div>{% endif %}
+      {% unless include.skip_date %}
+      <p class="event-time">
+        <time datetime="{{ event.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="startDate">
+          {{ event.date | date: "%d %B %Y %H:%M" }}
+        </time>
+      </p>
+      {% endunless %}
+
+      <address itemprop="location" itemscope itemtype="http://schema.org/Place" class="event-address">
+        <p itemprop="name">{{event.location.name}}</p>
+        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <p itemprop="streetAddress">{{event.location.street}}</p>
+          <p itemprop="addressLocality">{{event.location.city}}</p>
+        </div>
+      </address>
     </div>
-  </address>
+
+    <div class="event-map">
+      <div class="event-map-container">
+        <iframe width="600" height="450" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key={{site.google_maps_api_key | uri_escape}}&amp;q={{event.location.street | uri_escape}},+{{event.location.city | uri_escape}}" allowfullscreen> </iframe>
+      </div>
+    </div>
+  </div>
 
   {% if event.talks %}
   <ol class="talk-list is-fancy">
