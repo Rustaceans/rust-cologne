@@ -1,13 +1,11 @@
 <footer class="site-footer">
   <div class="wrapper">
     <nav class="site-nav">
-      <p>
-        {% for page in site.pages %}
-          {% if page.title %}{% unless page.not_in_menu %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endunless %}{% endif %}
-        {% endfor %}
-      </p>
+      {% for page in site.pages %}
+        {% if page.title %}{% unless page.not_in_menu %}
+        <p><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></p>
+        {% endunless %}{% endif %}
+      {% endfor %}
     </nav>
     <aside class="social-links">
       <p>
