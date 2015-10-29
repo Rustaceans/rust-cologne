@@ -12,9 +12,11 @@ talks:
   speaker:
     name: "Ismail Khoffi"
     twitter: KreuzUQuer
+    github: Liamsi
 - title: "An introduction to Nickel.rs, VisualRust and the FFI interface"
   speaker:
     name: "Harris Brakmic"
     twitter: brakmic
+    github: brakmic
   slides: "http://files.meetup.com/18637995/Presentation_29.07.2015.pdf"
 ---

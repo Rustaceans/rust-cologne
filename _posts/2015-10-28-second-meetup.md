@@ -12,13 +12,16 @@ talks:
   speaker:
     name: "Florian Zeitz"
     twitter: florob
+    github: florob
   slides: "http://babelmonkeys.de/~florob/talks/OC-2015-05-28-Rust.pdf"
 - title: "Rust Tooling"
   speaker:
     name: "Matthias Endler"
     twitter: matthiasendler
+    github: mre
   slides: "https://speakerdeck.com/mre/rust-tooling-october-2015"
 - title: "Generating Rust bindings from C headers with cxx2rs"
   speaker:
     name: "Manuel Schölling"
+    github: manuels
 ---

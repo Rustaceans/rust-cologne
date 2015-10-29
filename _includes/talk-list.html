@@ -6,7 +6,10 @@
         <p itemprop="author" itemscope itemtype="http://schema.org/Person">
           by <em class="talk-speaker" itemprop="name">{{talk.speaker.name}}</em>
           {% if talk.speaker.twitter %}<a class="talk-speaker-twitter" itemprop="sameAs" href="https://twitter.com/{{talk.speaker.twitter}}" title="@{{talk.speaker.twitter}} on Twitter">
-            {% include twitter-logo.html %}
+            {% include logo-twitter.html %}
+          </a>{% endif %}
+          {% if talk.speaker.github %}<a class="talk-speaker-github" itemprop="sameAs" href="https://github.com/{{talk.speaker.github}}" title="@{{talk.speaker.github}} on GitHub">
+            {% include logo-github.html %}
           </a>{% endif %}
           {% if talk.slides %}
             &mdash; <a itemprop="isBasedOnUrl" href="{{ talk.slides }}">Slides</a>
