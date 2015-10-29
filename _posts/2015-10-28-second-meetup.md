@@ -9,9 +9,14 @@ location:
   city: Köln
 talks:
 - title: "Introduction to Rust/Ownership"
-  speaker: "Florian Zeitz"
-- title: "Why I hate garbage collectors"
-  speaker: "Arne Claus"
+  speaker:
+    name: "Florian Zeitz"
+    twitter: florob
+- title: "Rust Tooling"
+  speaker:
+    name: "Matthias Endler"
+    twitter: matthiasendler
 - title: "Generating Rust bindings from C headers with cxx2rs"
-  speaker: "Manuel Schölling"
+  speaker:
+    name: "Manuel Schölling"
 ---

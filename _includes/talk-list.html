@@ -3,8 +3,11 @@
     <article class="talk" id="talk-{{forloop.index}}" itemprop="workPerformed" itemscope itemtype="http://schema.org/AudioObject">
       <header class="talk-header">
         <h1 class="talk-title" itemprop="name">{{talk.title}}</h1>
-        <p>
-          by <em class="talk-speaker" itemprop="author">{{talk.speaker}}</em>
+        <p itemprop="author" itemscope itemtype="http://schema.org/Person">
+          by <em class="talk-speaker" itemprop="name">{{talk.speaker.name}}</em>
+          {% if talk.speaker.twitter %}<a class="talk-speaker-twitter" itemprop="sameAs" href="https://twitter.com/{{talk.speaker.twitter}}" title="@{{talk.speaker.twitter}} on Twitter">
+            {% include twitter-logo.html %}
+          </a>{% endif %}
           {% if talk.slides %}
             &mdash; <a itemprop="isBasedOnUrl" href="{{ talk.slides }}">Slides</a>
           {% endif %}

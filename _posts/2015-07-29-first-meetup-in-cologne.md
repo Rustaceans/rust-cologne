@@ -9,8 +9,12 @@ location:
   city: Köln
 talks:
 - title: "What makes Rust so awesome? Introduction to Rust"
-  speaker: "Ismail Khoffi"
+  speaker:
+    name: "Ismail Khoffi"
+    twitter: KreuzUQuer
 - title: "An introduction to Nickel.rs, VisualRust and the FFI interface"
-  speaker: "Harris Brakmic"
+  speaker:
+    name: "Harris Brakmic"
+    twitter: brakmic
   slides: "http://files.meetup.com/18637995/Presentation_29.07.2015.pdf"
 ---
