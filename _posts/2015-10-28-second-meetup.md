@@ -17,6 +17,7 @@ talks:
   speaker:
     name: "Matthias Endler"
     twitter: matthiasendler
+  slides: "https://speakerdeck.com/mre/rust-tooling-october-2015"
 - title: "Generating Rust bindings from C headers with cxx2rs"
   speaker:
     name: "Manuel Schölling"
