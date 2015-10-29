@@ -12,6 +12,7 @@ talks:
   speaker:
     name: "Florian Zeitz"
     twitter: florob
+  slides: "http://babelmonkeys.de/~florob/talks/OC-2015-05-28-Rust.pdf"
 - title: "Rust Tooling"
   speaker:
     name: "Matthias Endler"
