@@ -24,4 +24,5 @@ talks:
   speaker:
     name: "Manuel Schölling"
     github: manuels
+  slides: "/assets/20151028-cxx2rs.pdf"
 ---
