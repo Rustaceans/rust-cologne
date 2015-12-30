@@ -1,6 +1,6 @@
 ---
 title: "Neujahrs-Meetup im Chaos-Computer-Club"
-date: 2015-02-03 19:15:00 MEZ
+date: 2016-02-03 19:15:00 MEZ
 categories: meetup cologne
 meetupcom: "http://www.meetup.com/de/Rust-Cologne-Bonn/events/227534456/"
 location:
