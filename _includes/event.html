@@ -10,9 +10,6 @@
 
   <div class="event-meta">
     <div class="event-meta-data">
-      {% if event.meetupcom %}<div class="event-meetupcom">
-        <a href="{{ event.meetupcom }}" itemprop="sameAs">This event on Meetup.com</a>
-      </div>{% endif %}
       {% unless include.skip_date %}
       <p class="event-time">
         <time datetime="{{ event.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="startDate">
@@ -28,6 +25,8 @@
           <p itemprop="addressLocality">{{event.location.city}}</p>
         </div>
       </address>
+
+      {% include event-links.html event=event %}
     </div>
 
     <div class="event-map">

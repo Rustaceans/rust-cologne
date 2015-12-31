@@ -37,6 +37,25 @@
   }
 }
 
+.event-links {
+  margin-top: $spacing;
+
+  ul {
+    padding-left: 0;
+    margin-left: 0;
+    list-style: none;
+  }
+
+  li {
+    margin-bottom: $spacing / 2;
+
+    &:before {
+      content: "→ ";
+      color: $color-lo;
+    }
+  }
+}
+
 .more-events {
   margin-top: $spacing-large;
   border-top: 1px solid $color-lo;
