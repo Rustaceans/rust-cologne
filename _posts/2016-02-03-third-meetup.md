@@ -12,9 +12,14 @@ location:
   street: "Heliosstr. 6a"
   city: Köln
 talks:
-- title: "t.b.a"
+- title: "t.b.a."
   speaker:
     name: "Pascal Hertleif"
     twitter: killercup
     github: killercup
+- title: "Automatic crate publishing with sematic-rs"
+  speaker:
+    name: "Jan-Erik Rediger"
+    twitter: badboy_
+    github: badboy
 ---
