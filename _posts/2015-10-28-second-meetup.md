@@ -16,7 +16,7 @@ talks:
     name: "Florian Zeitz"
     twitter: florob
     github: florob
-  slides: "http://babelmonkeys.de/~florob/talks/OC-2015-05-28-Rust.pdf"
+  slides: "http://babelmonkeys.de/~florob/talks/RUG-2015-10-28-Rust.pdf"
 - title: "Rust Tooling"
   speaker:
     name: "Matthias Endler"
