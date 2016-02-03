@@ -17,6 +17,7 @@ talks:
     name: "Pascal Hertleif"
     twitter: killercup
     github: killercup
+  slides: "/assets/20160203-rust-with-confidence.pdf"
 - title: "Automatic crate publishing with sematic-rs"
   speaker:
     name: "Jan-Erik Rediger"
