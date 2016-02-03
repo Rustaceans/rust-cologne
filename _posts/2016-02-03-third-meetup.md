@@ -23,4 +23,5 @@ talks:
     name: "Jan-Erik Rediger"
     twitter: badboy_
     github: badboy
+  slides: "http://badboy.github.io/semantic-rs-slides/"
 ---
