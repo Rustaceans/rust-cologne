@@ -12,7 +12,7 @@ location:
   street: "Heliosstr. 6a"
   city: Köln
 talks:
-- title: "t.b.a."
+- title: "Rust with confidence"
   speaker:
     name: "Pascal Hertleif"
     twitter: killercup
