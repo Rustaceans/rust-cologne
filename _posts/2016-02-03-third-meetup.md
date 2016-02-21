@@ -1,5 +1,5 @@
 ---
-title: "Neujahrs-Meetup im Chaos-Computer-Club"
+title: "First 2016 Meetup"
 date: 2016-02-03 19:15:00 MEZ
 categories: meetup cologne
 links:

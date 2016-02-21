@@ -1,2 +1,2 @@
-{% include fancy-date.html date=include.event.date %} {{ include.event.date | date:"%H:%M" }}
+{{include.event.title}} &ndash; {% include fancy-date.html date=include.event.date %} {{ include.event.date | date:"%H:%M" }}
 at {{ include.event.location.name }}
