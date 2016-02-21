@@ -11,4 +11,12 @@ location:
   name: "Chaos Computer Club Cologne (c4) e.V."
   street: "Heliosstr. 6a"
   city: Köln
+talks: []
 ---
+## Program
+
+- We will introduce each other briefly
+- We will do some live-coding in a group with one (alternating) coder up-front
+- It looks like we are going to code a csv-parser and a rosetta code problem
+- You can enjoy some Drinks and meet nice people :)
+
