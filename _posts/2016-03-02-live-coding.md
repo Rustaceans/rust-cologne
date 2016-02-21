@@ -17,6 +17,6 @@ talks: []
 
 - We will introduce each other briefly
 - We will do some live-coding in a group with one (alternating) coder up-front
-- It looks like we are going to code a csv-parser and a rosetta code problem
-- You can enjoy some Drinks and meet nice people :)
+- It looks like we are going to code a CSV parser and a Rosetta code problem (cf. [rust-rosetta](https://github.com/Hoverbear/rust-rosetta))
+- You can enjoy some drinks and meet nice people :)
 
