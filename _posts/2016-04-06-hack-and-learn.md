@@ -14,7 +14,10 @@ location:
 talks:
 - title: "Testing with Rust"
   speaker:
-    name: "Pascal Hertleif and/or Jan-Erik Rediger"
+    name: "Jan-Erik Rediger"
+    twitter: badboy_
+    github: badboy
+  slides: "http://badboy.github.io/rust-testing-slides/"
 ---
 ## Program
 
