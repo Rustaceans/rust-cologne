@@ -1,17 +1,23 @@
 ---
-title: "Rust Anniversary "
+title: "Rust Anniversary"
 date: 2016-05-04 19:15:00 MEZ
 categories: meetup cologne
 links:
     "Meetup.com": "http://www.meetup.com/Rust-Cologne-Bonn/events/230641335/"
     "Rust user forum": "https://users.rust-lang.org/t/cologne-germany-rust-anniversary-meetup-on-2016-05-04/5572"
     "Rust Community Calendar": "https://calendar.google.com/calendar/render?eid=cWllajY1NzBqZTNiMm0yYWlkanAxa21qNmsgYXBkOXZtYmMyMmVnZW5tdHU1bDZjNWpiZmNAZw&ctz=America/Los_Angeles&sf=true&output=xml#eventpage_6"
+    "German Rust forum": "https://forum.rustplatz.de/t/koelner-meetup-im-mai-planung-ideen-vorschlaege/123/12"
 location:
   name: "Chaos Computer Club Cologne (c4) e.V."
   street: "Heliosstr. 6a"
   city: Köln
 talks:
 - title: "Rust from 1.0 to 1.8"
+  speaker:
+    name: "Pascal Hertleif"
+    twitter: killercup
+    github: killercup
+  slides: "http://bl.ocks.org/anonymous/raw/8745ae5a445bd85f818707a6cc35b61f/"
 ---
 This meetup will be (almost) one year after the release of Rust 1.0.
 
