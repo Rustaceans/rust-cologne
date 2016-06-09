@@ -16,18 +16,21 @@ talks:
     name: "Andre Bogus"
     twitter: llogiq
     github: llogiq
-  slides: "http://llogiq.github.io/talks/survey.html"
+  slides: "https://llogiq.github.io/talks/survey.html"
+  video: "https://media.ccc.de/v/rustmcb.clippy-survey-results"
 - title: "Panopticon"
   speaker:
     name: "Kai Michaelis"
     github: flanfly
   slides: "https://cdn.rawgit.com/flanfly/rust-cologne/master/index.html"
+  video: "https://media.ccc.de/v/rustmcb.why-port-10k-loc-to-rust"
 - title: "The Future of Rust"
   speaker:
     name: "Alex Crichton"
     twitter: alex_crichton
     github: alexcrichton
   slides: "/assets/20160606-state-of-rust-2016.pdf"
+  video: "https://media.ccc.de/v/rustmcb.state-of-rust"
 ---
 At this meetup we are excited to welcome Rust core team member _Alex Crichton_, who will share some insights about the future of Rust.
 

@@ -15,6 +15,9 @@
           {% if talk.slides %}
             &mdash; <a itemprop="isBasedOnUrl" href="{{ talk.slides }}">Slides</a>
           {% endif %}
+          {% if talk.video %}
+            &mdash; <a itemprop="contentUrl" href="{{ talk.video }}">Video</a>
+          {% endif %}
         </p>
         {% endif %}
       </header>
