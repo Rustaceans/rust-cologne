@@ -50,6 +50,6 @@
   {% endif %}
 
   <div class="event-description" itemprop="description">
-    {{event.content}}
+    {{ event.content | markdown}}
   </div>
 </div>
