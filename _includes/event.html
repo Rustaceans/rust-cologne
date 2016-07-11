@@ -52,4 +52,6 @@
   <div class="event-description" itemprop="description">
     {{ event.content | markdown}}
   </div>
+
+  {% include meetup-rsvp-button.html event=page %}
 </div>

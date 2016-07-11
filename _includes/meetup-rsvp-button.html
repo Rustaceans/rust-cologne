@@ -1,0 +1,4 @@
+{% if event.meetup.id %}
+<p>Please let us know, if you're planning to drop by ;-)</p>
+<a href="http://www.meetup.com/Rust-Cologne-Bonn/events/{{ event.meetup.id }}/" data-event="{{ event.meetup.id }}" class="mu-rsvp-btn">RSVP</a>
+{% endif %}
