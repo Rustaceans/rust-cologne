@@ -11,6 +11,8 @@ location:
   name: "Chaos Computer Club Cologne (c4) e.V."
   street: "Heliosstr. 6a"
   city: Köln
+meetup:
+  id: 227534456
 talks:
 - title: "Rust with confidence"
   speaker:

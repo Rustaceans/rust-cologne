@@ -11,6 +11,8 @@ location:
   name: "Chaos Computer Club Cologne (c4) e.V."
   street: "Heliosstr. 6a"
   city: Köln
+meetup:
+  id: 229013352
 talks: []
 ---
 ## Program
@@ -19,4 +21,3 @@ talks: []
 - We will do some live-coding in a group with one (alternating) coder up-front
 - It looks like we are going to code a CSV parser and a Rosetta code problem (cf. [rust-rosetta](https://github.com/Hoverbear/rust-rosetta))
 - You can enjoy some drinks and meet nice people :)
-

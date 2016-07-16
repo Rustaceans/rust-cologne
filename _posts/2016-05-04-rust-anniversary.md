@@ -11,6 +11,8 @@ location:
   name: "Chaos Computer Club Cologne (c4) e.V."
   street: "Heliosstr. 6a"
   city: Köln
+meetup:
+  id: 230641335
 talks:
 - title: "Rust from 1.0 to 1.8"
   speaker:

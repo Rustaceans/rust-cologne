@@ -10,6 +10,8 @@ location:
   name: "Chaos Computer Club Cologne (c4) e.V."
   street: "Heliosstr. 6a"
   city: Köln
+meetup:
+  id: 226086635
 talks:
 - title: "Introduction to Rust/Ownership"
   speaker:

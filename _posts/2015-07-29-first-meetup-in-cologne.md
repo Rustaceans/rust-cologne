@@ -8,6 +8,8 @@ location:
   name: "Coworking Cologne"
   street: "An der Bottmühle 5"
   city: Köln
+meetup:
+  id: 222915034
 talks:
 - title: "What makes Rust so awesome? Introduction to Rust"
   speaker:

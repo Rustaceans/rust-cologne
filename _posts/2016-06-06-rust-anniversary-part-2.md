@@ -10,6 +10,8 @@ location:
   name: "Chaos Computer Club Cologne (c4) e.V."
   street: "Heliosstr. 6a"
   city: Köln
+meetup:
+  id: 231135785
 talks:
 - title: "Clippy: Survey Results"
   speaker:

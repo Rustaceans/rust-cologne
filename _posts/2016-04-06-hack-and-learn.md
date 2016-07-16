@@ -11,6 +11,8 @@ location:
   name: "Chaos Computer Club Cologne (c4) e.V."
   street: "Heliosstr. 6a"
   city: Köln
+meetup:
+  id: 229013352
 talks:
 - title: "Testing with Rust"
   speaker:

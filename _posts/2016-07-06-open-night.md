@@ -9,10 +9,12 @@ location:
   name: "Chaos Computer Club Cologne (c4) e.V."
   street: "Heliosstr. 6a"
   city: Köln
+meetup:
+  id: 232274957
 talks: false
 ---
 After a [fully packed meetup in June](http://rustaceans.cologne/2016/06/06/rust-anniversary-part-2.html), we decided to have an evening without any pre-announced talks.
 
-What happens is entirely up to you: You can bring your current projects, questions, and ideas – or just be there and enjoy inspiring conversations with other Rustaceans! 
+What happens is entirely up to you: You can bring your current projects, questions, and ideas – or just be there and enjoy inspiring conversations with other Rustaceans!
 
 As we don't have any talks, there will be no favoured language. Discussions will happen in whatever language the participants feel most comfortable with.
