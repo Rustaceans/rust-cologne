@@ -56,3 +56,11 @@ time {
 address {
   font-style: normal;
 }
+
+hr {
+  border: 0;
+  margin-top: $spacing-large;
+  border-top: 1px solid $color-lo;
+  padding-top: $spacing-large;
+  height: 0;
+}
