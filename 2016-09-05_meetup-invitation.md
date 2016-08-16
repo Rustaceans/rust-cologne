@@ -3,8 +3,8 @@
 Our current agenda is:
 
 * **Why I hate garbage collectors** - by Arne Claus
-* **Compiling Rust to asmjs** - by Jan-Erik
-* **Special hands-on**: After this session you are able to compile something like hello world from rust to javascript and run it in your browser*.
+* **Compiling Rust to asm.js** - by Jan-Erik
+* **Special hands-on**: After this session you will be able to compile a hello world style program from Rust to JavaScript and run it in your browser*.
 * discussion / informal talk
 
 **\*Note**: This requires Docker to run. There will be a version of play.rust-lang.org that can be used as well.
