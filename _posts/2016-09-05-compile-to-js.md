@@ -23,6 +23,7 @@ talks:
     name: "Jan-Erik"
     github: badboy
     twitter: badboy_
+  slides: https://badboy.github.io/rust-to-the-browser/
 ---
 After Jan-Erik's talk, we will try to do a **special hands-on** where you will be able to compile a hello world style program from Rust to JavaScript and run it in your browser (bring your own device, requires Docker to run).
 
