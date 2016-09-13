@@ -18,12 +18,14 @@ talks:
     name: "Arne Claus"
     github: arnecls
     twitter: arnecls
+  video: "https://media.ccc.de/v/rustmcb.2016.09.why-i-hate-garbage-collectors"
 - title: "Compiling Rust to asm.js"
   speaker:
     name: "Jan-Erik"
     github: badboy
     twitter: badboy_
   slides: https://badboy.github.io/rust-to-the-browser/
+  video: "https://media.ccc.de/v/rustmcb.2016.09.compiling-rust-to-asmjs"
 ---
 After Jan-Erik's talk, we will try to do a **special hands-on** where you will be able to compile a hello world style program from Rust to JavaScript and run it in your browser (bring your own device, requires Docker to run).
 
