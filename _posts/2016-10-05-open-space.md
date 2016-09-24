@@ -12,14 +12,20 @@ meetup:
   id: 233139845
 talks: false
 ---
-We would like to try an **open space** style meetup in October, as suggested by @carlberger and discussed during our last meetup. Imagine a bazaar, where you can suggest topics and activities and spontaneously join any activity you find interesting. It all depends on your interests.
+Join our **open space** style meetup on the first Wednesday of October, 2016-10-05.
 
-Feel free to make your suggestions [here in advance](https://github.com/Rustaceans/rust-cologne/issues/7) or at the meetup itself. :-)
+Imagine a bazaar, where you can suggest topics and spontaneously join any discussion you find interesting. It all depends on your interests.
 
-Some possible activities and topics that were mentioned at the last meetup:
+Some possible activities and topics have already been suggested in advance:
 
 * IDE support and best practice configurations
-* Code review
-* ...
+* group code review of a WIP project
+* ... your suggestion?
 
-We will probably include a short summary of the suggestions in our final meetup invitation to give undecided people a rough idea what to expect.
+We will have timeslots of 30 minutes to allow you to engage in different discussions. :-)
+ 
+We are looking forward to seeing you. As always you can enjoy some drinks and get to know other nice people interested in Rust.
+
+---
+
+The meetup will likely be held in German, we will however reevaluate this at the beginning of the evening and may switch to English if needed.
