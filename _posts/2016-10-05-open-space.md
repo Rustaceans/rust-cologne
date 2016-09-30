@@ -3,7 +3,7 @@ title: "Open Space"
 date: 2016-10-05 19:15:00 MEZ
 categories: meetup cologne
 links:
-    "Meetup.com": "http://www.meetup.com/de-DE/Rust-Cologne-Bonn/events/233897575/"
+    "Meetup.com": "http://www.meetup.com/RustCologne/events/233897575/"
     "German Rust forum": "https://forum.rustplatz.de/t/koeln-11-open-space-rust-treffen-wednesday-2016-10-05/173"
     "Rust user forum": "https://users.rust-lang.org/t/cgn-11-open-space-rust-meetup-wednesday-2016-10-05/7394"
     "Reddit": "https://www.reddit.com/r/rust/comments/54aseo/meetup_in_cologne_wednesday_oct_5th_2016_at_715pm/"

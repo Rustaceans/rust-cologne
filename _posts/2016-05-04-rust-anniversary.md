@@ -3,7 +3,7 @@ title: "Rust Anniversary"
 date: 2016-05-04 19:15:00 MEZ
 categories: meetup cologne
 links:
-    "Meetup.com": "http://www.meetup.com/Rust-Cologne-Bonn/events/230641335/"
+    "Meetup.com": "http://www.meetup.com/RustCologne/events/230641335/"
     "Rust user forum": "https://users.rust-lang.org/t/cologne-germany-rust-anniversary-meetup-on-2016-05-04/5572"
     "Rust Community Calendar": "https://calendar.google.com/calendar/render?eid=cWllajY1NzBqZTNiMm0yYWlkanAxa21qNmsgYXBkOXZtYmMyMmVnZW5tdHU1bDZjNWpiZmNAZw&ctz=America/Los_Angeles&sf=true&output=xml#eventpage_6"
     "German Rust forum": "https://forum.rustplatz.de/t/koelner-meetup-im-mai-planung-ideen-vorschlaege/123/12"

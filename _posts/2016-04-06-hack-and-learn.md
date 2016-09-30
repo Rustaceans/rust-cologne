@@ -3,7 +3,7 @@ title: "Hack and Learn"
 date: 2016-04-06 19:15:00 MEZ
 categories: meetup cologne
 links:
-    "Meetup.com": "http://www.meetup.com/de-DE/Rust-Cologne-Bonn/events/229919455/"
+    "Meetup.com": "http://www.meetup.com/RustCologne/events/229919455/"
     "Rust user forum": "https://users.rust-lang.org/t/cologne-germany-hack-and-learn-on-2016-04-06/5171"
     "Rust Community Calendar": "https://calendar.google.com/calendar/render?eid=Y2JuZXJycmNhOThvZnZnamhwOWN0ZGJvazAgYXBkOXZtYmMyMmVnZW5tdHU1bDZjNWpiZmNAZw&ctz=America/Los_Angeles&sf=true&output=xml#eventpage_"
     "German Rust forum": "https://forum.rustplatz.de/t/naechstes-rust-meetup-in-koeln-c4/112/14#post_15"
@@ -47,5 +47,5 @@ Our next meetup will be all around **testing**. You can enjoy some drinks, meet 
 
 * We will try to select easy problems, supposed to be solvable in roughly 15-30 minutes by novices with only basic Rust experience.
 * Some experienced Rust programmers will act as mentors during the two pair programming rounds. These mentors will not participate in pairs themselves, but answer questions and provide tips.
-* If you like to join this meetup, **please let us know** at [meetup.com](http://www.meetup.com/de-DE/Rust-Cologne-Bonn/events/229919455/). We are looking forward to see you. :-)
+* If you like to join this meetup, **please let us know** at [meetup.com](http://www.meetup.com/RustCologne/events/229919455/). We are looking forward to see you. :-)
 * The meetup will likely be held in German, we will however reevaluate this at the meetup and may switch to English if needed.

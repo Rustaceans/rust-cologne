@@ -3,7 +3,7 @@ title: "Compiling Rust to your Browser"
 date: 2016-09-05 19:15:00 MEZ
 categories: meetup cologne
 links:
-    "Meetup.com": "http://www.meetup.com/de-DE/Rust-Cologne-Bonn/events/233139845/"
+    "Meetup.com": "http://www.meetup.com/RustCologne/events/233139845/"
     "German Rust forum": "https://forum.rustplatz.de/t/koeln-10-compiling-rust-to-your-browser-montag-2016-09-05/161"
     "Rust user forum": "https://users.rust-lang.org/t/cgn-10-compiling-rust-to-your-browser-monday-2016-09-05/6916"
 location:

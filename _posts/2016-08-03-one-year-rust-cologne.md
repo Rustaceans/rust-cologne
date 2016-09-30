@@ -9,7 +9,7 @@ location:
 meetup:
   id: 230641492
 links:
-  "Meetup.com": "http://www.meetup.com/Rust-Cologne-Bonn/events/230641492/"
+  "Meetup.com": "http://www.meetup.com/RustCologne/events/230641492/"
   "German Rust forum": "https://forum.rustplatz.de/t/rust-meetup-cologne-bonn-august/151"
 talks: false
 ---

@@ -3,7 +3,7 @@ title: "First meetup, talks and drinks"
 date: 2015-07-29 19:00:00 MEST
 categories: meetup cologne
 links:
-    "Meetup.com": "http://www.meetup.com/de/Rust-Cologne-Bonn/events/222915034/"
+    "Meetup.com": "http://www.meetup.com/RustCologne/events/222915034/"
 location:
   name: "Coworking Cologne"
   street: "An der Bottmühle 5"

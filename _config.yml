@@ -1,6 +1,6 @@
 # Site settings
-title: rust.cologne
-description: "Rust User Group in the area of Cologne/Bonn, Germany"
+title: Rust User Group Cologne
+description: "The recurring Rust enthusiast's assembly in the fair city of Cologne, Germany"
 baseurl: ""
 url: "http://rust.cologne"
 twitter_username: rustcologne
