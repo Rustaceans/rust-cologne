@@ -56,6 +56,12 @@
   }
 }
 
+.event-description {
+  ul, ol {
+    margin-bottom: $spacing-small;
+  }
+}
+
 .more-events {
   margin-top: $spacing-large;
   border-top: 1px solid $color-lo;
