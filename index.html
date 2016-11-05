@@ -2,46 +2,51 @@
 layout: default
 header-variant: start-page
 ---
+{% assign curDate = site.time %}
+{% assign next_meetups = site.posts | where_exp: "item", "item.date > curDate" | sort: "date" %}
+{% assign past_meetups = site.posts | where_exp: "item", "item.date <= curDate" | sort: "date" %}
+{% assign next_meetup = next_meetups | first %}
+{% assign prev_meetup = past_meetups | last %}
+{% assign further_down_the_line = next_meetups | shift %}
+
 <div class="page-home" role="main">
   <section class="next-meetup">
-    {% comment %}
-      Find the next meetup in the future
-    {% endcomment %}
-    {% assign curDate = site.time | date: '%s' %}
-    {% for post in site.posts %}
-      {% assign postStartDate = post.date | date: '%s' %}
-      {% if postStartDate >= curDate %}
-        {% assign current = post %}
-        {% break %}
-      {% endif %}
-    {% endfor %}
-    {% if current %}
-    <p class="next-meetup-byline">Next Meetup:</p>
-    <article class="event is-current">
-      {% if current.talks != false %}
-        {% include event.html event=current skip_date=true call_for_talks=true %}
+  {% if next_meetup %}
+    <p class="next-meetup-byline">Next meetup:</p>
+    <article class="event is-next-meetup">
+      {% if next_meetup.talks != false %}
+        {% include event.html event=next_meetup skip_date=true call_for_talks=true %}
       {% else %}
-        {% include event.html event=current skip_date=true call_for_talks=false %}
+        {% include event.html event=next_meetup skip_date=true call_for_talks=false %}
       {% endif %}
     </article>
-    {% else %}
-    <h1>We are currently planning our next meetup</h1>
-    <p><a href="mailto:{{site.email}}?subject={{ "Next Rust Meetup" | uri_escape }}">Help us!</a></p>
-    {% endif %}
+  {% else %}
+    <h1>
+      We are currently planning our next meetup
+    </h1>
+    <p>
+      <a href="https://github.com/Rustaceans/rust-cologne/issues">
+        Help us!
+      </a>
+    </p>
+  {% endif %}
   </section>
 
-{% if current %}
-  {% assign older = site.posts | shift %}
-{% else %}
-  {% assign older = site.posts %}
-{% endif %}
+  {% if further_down_the_line.size > 0 %}
+  <section class="future-meetups">
+    <p class="byline">More future meetups:</p>
+    {% for event in further_down_the_line %}  
+      {% include event-inline.html event=event %}
+    {% endfor %}
+  </section>
+  {% endif %}
 
-{% if older.size > 0 %}
+  {% if prev_meetup %}
   <section class="prev-meetup">
-    <p class="prev-meetup-byline">Previous Meetup:</p>
-    {% include event-inline.html event=older.first %}
+    <p class="byline">Previous meetup:</p>
+    {% include event-inline.html event=prev_meetup %}
   </section>
-{% endif %}
+  {% endif %}
 
   <section class="featured-impressions">
     <h2>Featured Impressions</h2>

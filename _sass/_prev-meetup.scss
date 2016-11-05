@@ -1,17 +1,19 @@
-.featured-impressions,
-.prev-meetup {
+.future-meetups,
+.prev-meetup,
+.featured-impressions {
   margin-top: $spacing-large;
   border-top: 1px solid $color-lo;
   padding-top: $spacing-large;
-  padding-bottom: $spacing-large;
 }
 
-.prev-meetup-byline {
-  font-style: italic;
-}
+.future-meetups,
+.prev-meetup {
+  .byline {
+    font-style: italic;
+  }
 
-.prev-meetup .event-title {
-  margin-top: 0;
-  font-size: 1em;
-  margin-bottom: $spacing;
+  .event-title {
+    margin-top: 0;
+    font-size: 1em;
+  }
 }
