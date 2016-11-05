@@ -2,13 +2,15 @@
 <article class="event is-inline" itemscope itemtype="http://schema.org/SocialEvent" itemid="{{ event.url | prepend: site.baseurl }}">
   <header>
     <h1 class="event-title">
-      <a class="event-link" href="{{ event.url | prepend: site.baseurl }}" itemprop="name">
+      <a class="event-link" href="{{ event.url | prepend: site.baseurl }}">
         {% include event-title.html event=event %}
       </a>
     </h1>
   </header>
   
+  {% if event.talks %}
   <ol class="talk-list is-short">
   {% include talk-list.html talks=event.talks show_abstract=false %}
   </ol>
+  {% endif %}
 </article>
