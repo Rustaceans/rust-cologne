@@ -6,6 +6,7 @@ links:
     "Meetup.com": "http://www.meetup.com/RustCologne/events/234651810/"
     "Rust user forum": "https://users.rust-lang.org/t/7904"
     "German Rust forum": "https://forum.rustplatz.de/t/184"
+    "Planning discussion on Github": "https://github.com/Rustaceans/rust-cologne/issues/10"
 location:
   name: "Chaos Computer Club Cologne (c4) e.V."
   street: "Heliosstr. 6a"
