@@ -4,6 +4,8 @@ date: 2016-11-16 19:00:00 MEZ
 categories: meetup cologne
 links:
     "Meetup.com": "http://www.meetup.com/RustCologne/events/234651810/"
+    "Rust user forum": "https://users.rust-lang.org/t/7904"
+    "German Rust forum": "https://forum.rustplatz.de/t/184"
 location:
   name: "Chaos Computer Club Cologne (c4) e.V."
   street: "Heliosstr. 6a"
