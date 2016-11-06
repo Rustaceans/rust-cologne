@@ -35,3 +35,5 @@ talks:
 At the October meetup, we decided to _not_ do a meetup on the first Wednesday of November, but instead join forces with the [Open Source Audio Meetup](http://cologne.linuxaudio.org/doku.php) which is at the _third_ Wednesday (also at the c4).
 
 After the talks we'll have an open discussion about music, audio software and programming with Rust. As always, you can enjoy some drinks, meet nice people and discuss about Rust and Open Source Audio. Be prepared for an interesting mix of topics from both worlds!
+
+**Important note:** This meetup will be held **in German** - not English - due to joining with the Open Source Audio meetup.
