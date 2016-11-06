@@ -15,7 +15,7 @@ header-variant: start-page
     <p class="next-meetup-byline">Next meetup:</p>
     <article class="event is-next-meetup">
       {% if next_meetup.talks != false %}
-        {% include event.html event=next_meetup skip_date=true call_for_talks=true %}
+        {% include event.html event=next_meetup skip_date=true call_for_talks=true show_abstracts=false %}
       {% else %}
         {% include event.html event=next_meetup skip_date=true call_for_talks=false %}
       {% endif %}

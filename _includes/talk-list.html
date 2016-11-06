@@ -21,11 +21,11 @@
         </p>
         {% endif %}
       </header>
-      {% if include.show_abstract %}{% if talk.abstract %}
-      <div class="talk-abstract">
+      {% if include.show_abstract && if talk.abstract %}
+      <div class="talk-abstract" itemprop="description">
         {{ talk.abstract | markdownify }}
       </div>
-      {% endif %}{% endif %}
+      {% endif %}
     </article>
   </li>
 {% endfor %}
