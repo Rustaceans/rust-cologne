@@ -1,0 +1,20 @@
+.page-home {
+  .section-headline {
+    @extend .as-h2;
+    margin: 0;
+  }
+
+  figure {
+    margin-top: $spacing;
+  }
+}
+
+.next-meetup {
+  padding-top: $spacing;
+}
+
+.future-meetups,
+.prev-meetup,
+.featured-impressions {
+  @include hr(solid);
+}

@@ -12,7 +12,7 @@ header-variant: start-page
 <div class="page-home" role="main">
   <section class="next-meetup">
   {% if next_meetup %}
-    <p class="next-meetup-byline">Next meetup:</p>
+    <p class="section-headline">Next meetup</p>
     <article class="event is-next-meetup">
       {% if next_meetup.talks != false %}
         {% include event.html event=next_meetup skip_date=true call_for_talks=true show_abstracts=false %}
@@ -25,7 +25,7 @@ header-variant: start-page
       We are currently planning our next meetup
     </h1>
     <p>
-      <a href="https://github.com/Rustaceans/rust-cologne/issues">
+      <a href="{{ site.feedback_url }}">
         Help us!
       </a>
     </p>
@@ -34,7 +34,7 @@ header-variant: start-page
 
   {% if further_down_the_line.size > 0 %}
   <section class="future-meetups">
-    <p class="byline">More future meetups:</p>
+    <p class="section-headline">More future meetups</p>
     {% for event in further_down_the_line %}  
       {% include event-inline.html event=event %}
     {% endfor %}
@@ -43,13 +43,13 @@ header-variant: start-page
 
   {% if prev_meetup %}
   <section class="prev-meetup">
-    <p class="byline">Previous meetup:</p>
+    <p class="section-headline">Previous meetup</p>
     {% include event-inline.html event=prev_meetup %}
   </section>
   {% endif %}
 
   <section class="featured-impressions">
-    <h2>Featured Impressions</h2>
+    <h1 class="section-headline">Featured Impressions</h1>
     <figure>
       <figcaption>The Future of Rust - Alex Crichton</figcaption>
       <div class="embed ratio-16-9">
