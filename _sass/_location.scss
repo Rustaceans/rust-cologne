@@ -1,0 +1,35 @@
+.location {
+  @extend %row;
+  padding: 0;
+
+  .map,
+  .address {
+    @extend %half;
+  }
+
+  .map-container {
+    position: relative;
+    height: 0;
+    padding-bottom: 70%;
+    margin-bottom: $spacing;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  h1 {
+    font-size: 1em;
+    line-height: 1.4;
+    margin-top: 0;
+  }
+
+  .location-directions {
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+}
