@@ -2,9 +2,7 @@
 <article class="event is-inline" itemscope itemtype="http://schema.org/SocialEvent" itemid="{{ event.url | prepend: site.baseurl }}">
   <header>
     <h1 class="event-title">
-      <a class="event-link" href="{{ event.url | prepend: site.baseurl }}">
-        {% include event-title.html event=event %}
-      </a>
+      {% include event-title.html event=event %}
     </h1>
   </header>
   
