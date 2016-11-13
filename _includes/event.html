@@ -43,7 +43,12 @@
   {% elsif include.call_for_talks %}
   <p><em>
     We're currently looking for talks.
-    <a href="mailto:{{site.email}}?subject={{ "Talk at Rust Meetup" | uri_escape }}">Help us!</a>
+
+    {% if event.links['Planning discussion on Github'] %}
+      <a href="{{ event.links['Planning discussion on Github'] }}">Help us!</a>
+    {% else %}
+      <a href="{{ site.feedback_url }}">Help us!</a>
+    {% endif %}
   </em></p>
   {% endif %}
 
