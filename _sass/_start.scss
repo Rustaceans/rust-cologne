@@ -1,7 +1,20 @@
 .page-home {
   .section-headline {
-    @extend .as-h2;
+    display: inline-block;
+    clear: right;
+    padding: $spacing-small;
     margin: 0;
+
+    font-size: 0.8rem; 
+    font-weight: bold;
+    text-transform: uppercase;
+
+    background-color: $color-fg;
+    color: $color-bg;
+  }
+
+  .event-title {
+    margin-top: $spacing-small;
   }
 
   figure {
@@ -11,6 +24,10 @@
 
 .next-meetup {
   padding-top: $spacing;
+
+  .event {
+    margin-top: 0;
+  }
 }
 
 .future-meetups,

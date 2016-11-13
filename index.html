@@ -12,7 +12,7 @@ header-variant: start-page
 <div class="page-home" role="main">
   <section class="next-meetup">
   {% if next_meetup %}
-    <p class="section-headline">Next meetup</p>
+    <p class="section-headline">Next</p>
     <article class="event is-next-meetup">
       {% if next_meetup.talks != false %}
         {% include event.html event=next_meetup skip_date=true call_for_talks=true show_abstracts=false %}
@@ -34,7 +34,7 @@ header-variant: start-page
 
   {% if further_down_the_line.size > 0 %}
   <section class="future-meetups">
-    <p class="section-headline">More future meetups</p>
+    <p class="section-headline">Upcoming</p>
     {% for event in further_down_the_line %}  
       {% include event-inline.html event=event %}
     {% endfor %}
@@ -43,7 +43,7 @@ header-variant: start-page
 
   {% if prev_meetup %}
   <section class="prev-meetup">
-    <p class="section-headline">Previous meetup</p>
+    <p class="section-headline">Previous</p>
     {% include event-inline.html event=prev_meetup %}
   </section>
   {% endif %}
