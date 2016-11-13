@@ -8,12 +8,7 @@ links:
     "Rust user forum": "https://users.rust-lang.org/t/cgn-11-open-space-rust-meetup-wednesday-2016-10-05/7394"
     "Reddit": "https://www.reddit.com/r/rust/comments/54aseo/meetup_in_cologne_wednesday_oct_5th_2016_at_715pm/"
     "Planning discussion on Github": "https://github.com/Rustaceans/rust-cologne/issues/7"
-location:
-  name: "Chaos Computer Club Cologne (c4) e.V."
-  street: "Heliosstr. 6a"
-  city: Köln
-meetup:
-  id: 233139845
+location: c4
 talks: false
 ---
 Join our **open space** style meetup on the first Wednesday of October, 2016-10-05.

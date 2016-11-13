@@ -7,12 +7,7 @@ links:
     "German Rust forum": "https://forum.rustplatz.de/t/koeln-10-compiling-rust-to-your-browser-montag-2016-09-05/161"
     "Rust user forum": "https://users.rust-lang.org/t/cgn-10-compiling-rust-to-your-browser-monday-2016-09-05/6916"
     "Planning discussion on Github": "https://github.com/Rustaceans/rust-cologne/issues/6"
-location:
-  name: "Chaos Computer Club Cologne (c4) e.V."
-  street: "Heliosstr. 6a"
-  city: Köln
-meetup:
-  id: 233139845
+location: c4
 talks:
 - title: "Why I hate garbage collectors"
   speaker:

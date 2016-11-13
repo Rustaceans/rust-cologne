@@ -6,12 +6,7 @@ links:
     "Meetup.com": "http://www.meetup.com/RustCologne/events/231135785/"
     "German Rust forum": "https://forum.rustplatz.de/t/koelner-meetup-im-juni/133"
     "Rust user forum": "https://users.rust-lang.org/t/cologne-germany-rust-meetup-on-2016-06-06-with-special-guest/6043"
-location:
-  name: "Chaos Computer Club Cologne (c4) e.V."
-  street: "Heliosstr. 6a"
-  city: Köln
-meetup:
-  id: 231135785
+location: c4
 talks:
 - title: "Clippy: Survey Results"
   speaker:

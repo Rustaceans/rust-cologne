@@ -7,12 +7,7 @@ links:
     "Rust user forum": "https://users.rust-lang.org/t/cologne-germany-hack-and-learn-on-2016-04-06/5171"
     "Rust Community Calendar": "https://calendar.google.com/calendar/render?eid=Y2JuZXJycmNhOThvZnZnamhwOWN0ZGJvazAgYXBkOXZtYmMyMmVnZW5tdHU1bDZjNWpiZmNAZw&ctz=America/Los_Angeles&sf=true&output=xml#eventpage_"
     "German Rust forum": "https://forum.rustplatz.de/t/naechstes-rust-meetup-in-koeln-c4/112/14#post_15"
-location:
-  name: "Chaos Computer Club Cologne (c4) e.V."
-  street: "Heliosstr. 6a"
-  city: Köln
-meetup:
-  id: 229013352
+location: c4
 talks:
 - title: "Testing with Rust"
   speaker:

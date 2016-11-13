@@ -7,12 +7,7 @@ links:
     "Rust user forum": "https://users.rust-lang.org/t/cologne-germany-rust-anniversary-meetup-on-2016-05-04/5572"
     "Rust Community Calendar": "https://calendar.google.com/calendar/render?eid=cWllajY1NzBqZTNiMm0yYWlkanAxa21qNmsgYXBkOXZtYmMyMmVnZW5tdHU1bDZjNWpiZmNAZw&ctz=America/Los_Angeles&sf=true&output=xml#eventpage_6"
     "German Rust forum": "https://forum.rustplatz.de/t/koelner-meetup-im-mai-planung-ideen-vorschlaege/123/12"
-location:
-  name: "Chaos Computer Club Cologne (c4) e.V."
-  street: "Heliosstr. 6a"
-  city: Köln
-meetup:
-  id: 230641335
+location: c4
 talks:
 - title: "Rust from 1.0 to 1.8"
   speaker:

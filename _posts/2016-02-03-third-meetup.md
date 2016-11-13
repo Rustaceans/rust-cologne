@@ -7,12 +7,7 @@ links:
     "Rust user forum": "https://users.rust-lang.org/t/new-rust-meetup-in-cologne-germany-on-2016-02-03/4110"
     "Reddit": "https://www.reddit.com/r/rust/comments/3yu8ox/meetup_in_cologne_on_wednesday_feb_3rd_2016_715pm/"
     "German Rust forum": https://forum.rustplatz.de/t/naechstes-treffen-in-koeln-3-februar-2016-19-15-im-c4/90
-location:
-  name: "Chaos Computer Club Cologne (c4) e.V."
-  street: "Heliosstr. 6a"
-  city: Köln
-meetup:
-  id: 227534456
+location: c4
 talks:
 - title: "Rust with confidence"
   speaker:
