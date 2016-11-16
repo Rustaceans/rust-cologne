@@ -15,6 +15,7 @@ talks:
     github: danielappelt
   abstract: |
     This talk will focus on the requirements of real-time audio programming. On a high-level, I would like to explain why rust seems to be a better choice for that subject than many other new generation languages.
+  slides: "https://danielappelt.github.io/talk-real-time-audio-programming"
 - title: "Low Latency Audio Transfer with AES-67 and Rust"
   speaker:
     name: "Marc Schettke"
