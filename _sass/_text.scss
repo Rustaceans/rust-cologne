@@ -66,12 +66,6 @@ address {
   font-style: normal;
 }
 
-@mixin hr($style: solid) {
-  margin-top: $spacing-large;
-  border-top: 1px $style $color-lo;
-  padding-top: $spacing-large;
-}
-
 hr {
   border: 0;
   height: 0;

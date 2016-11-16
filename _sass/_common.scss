@@ -1,0 +1,17 @@
+@mixin hr($style: solid) {
+  margin-top: $spacing-large;
+  border-top: 1px $style $color-lo;
+  padding-top: $spacing-large;
+}
+
+@mixin label() {
+  padding: ($spacing-small / 2) $spacing-small;
+  margin: 0;
+
+  font-size: 0.75rem; 
+  font-weight: bold;
+  text-transform: uppercase;
+
+  background-color: $color-fg;
+  color: $color-bg;
+}

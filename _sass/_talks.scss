@@ -16,11 +16,8 @@
 
 .talk-item .talk {
   &:before {
+    @include label();
     display: block;
-    background-color: $color-fg;
-    color: $color-bg;
-    padding: $spacing-small;
-    margin-bottom: $spacing-small;
   }
 }
 
