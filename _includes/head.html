@@ -5,7 +5,14 @@
     <meta name=viewport content="width=device-width, initial-scale=1"/>
 
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    {% if page.location %}
+    {% capture meta_description %}
+      {% include event-title.html event=page %}
+    {% endcapture %}
+    <meta name="description" content="{{ meta_description | strip_html | trim }}"/>
+    {% else %}
     <meta name="description" content="{{ site.description }}"/>
+    {% endif %}
 
     <link rel="stylesheet" href="{{ "/styles.css" | prepend: site.baseurl }}"/>
 

@@ -1,0 +1,21 @@
+c4:
+  short: "c4"
+  name: "Chaos Computer Club Cologne (c4) e.V."
+  street: "Heliosstr. 6a"
+  city: "Köln"
+  web: "https://koeln.ccc.de"
+  directions: |
+    ## Public transport
+
+    - Via subway lines 3, 4, or 13 to "Venloer Straße/Gürtel" (exit the station towards "Heliosstr./Bezirksverwaltung")
+    - Via bus lines 141, 142, or 143 to "Venloer Straße/Gürtel"
+    - Via train to "Köln-Ehrenfeld" (exit the station towards "Venloer Straße")
+
+    Cross Venloer Straße and go into Heliosstraße. After 2–3min you arrive at the last building before the supermarket (on the right side). Entrance is next to the parking spots.
+
+coworking-cologne:
+  short: "Coworking Cologne"
+  name: "Coworking Cologne"
+  street: "An der Bottmühle 5"
+  city: "Köln"
+  web: "http://coworkingcologne.de"

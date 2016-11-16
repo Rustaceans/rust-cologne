@@ -3,9 +3,16 @@ title: Rust User Group Cologne
 description: "The recurring Rust enthusiast's assembly in the fair city of Cologne, Germany"
 baseurl: ""
 url: "http://rust.cologne"
-twitter_username: rustcologne
-github_username:  killercup
-email: rust.cologne@gmail.com
+author:
+  name: Rust Cologne
+  twitter: RustCologne
+  github: Rustaceans
+  meetup: RustCologne
+  email: rust.cologne@gmail.com
+
+feedback_url: https://github.com/Rustaceans/rust-cologne/issues
+source_url: https://github.com/Rustaceans/rust-cologne
+
 google_maps_api_key: AIzaSyBkz492n9gf895Tfi12ikKVurgIHHOFmK4
 
 # Build settings

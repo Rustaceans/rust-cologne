@@ -1,9 +1,20 @@
 .event {
   margin: $spacing 0;
+
+  .talk-list,
+  .location,
+  .event-links {
+    margin-top: $spacing;
+  }
 }
 
 .event-title {
   font-size: 1.5rem;
+}
+
+.event-in-space-time {
+  display: block;
+  font-weight: normal;
 }
 
 .event-title,
@@ -13,33 +24,7 @@
   margin-bottom: $spacing;
 }
 
-.event-meta {
-  @extend %row;
-  padding: 0;
-
-  .event-meta-data,
-  .event-map {
-    @extend %half;
-  }
-
-  .event-map-container {
-    position: relative;
-    height: 0;
-    padding-bottom: 70%;
-
-    iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-  }
-}
-
 .event-links {
-  margin-top: $spacing;
-
   ul {
     padding-left: 0;
     margin-left: 0;
@@ -47,49 +32,17 @@
   }
 
   li {
-    margin-bottom: $spacing / 2;
+    display: inline-block;
+    padding-bottom: $spacing-small;
+    padding-right: $spacing-small;
 
-    &:before {
-      content: "→ ";
-      color: $color-lo;
-    }
-  }
-}
-
-.event-description {
-  line-height: 1.4;
-
-  ul, ol {
-    margin-bottom: $spacing-small;
-  }
-}
-
-.more-events {
-  margin-top: $spacing-large;
-  border-top: 1px solid $color-lo;
-  padding-top: $spacing-large;
-}
-
-.event-list {
-  list-style: none;
-
-  .event-item:not(:last-child) {
-    padding-bottom: $spacing;
-    border-bottom: 1px solid $color-lo;
-    margin-bottom: $spacing;
-  }
-
-  .event-title {
-    font-size: 1rem;
-    font-weight: normal;
-
-    .title {
-      display: block;
-      font-weight: bold;
-    }
-
-    .separator {
-      display: none;
+    + li {
+      &:before {
+        display: inline-block;
+        padding-right: $spacing-small;
+        content: " – ";
+        color: $color-lo;
+      }
     }
   }
 }

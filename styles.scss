@@ -2,12 +2,12 @@
 ---
 @charset "utf-8";
 
-$max-width: 50em;
-$spacing: 1em;
+$max-width: 50rem;
+$spacing: 1rem;
 $spacing-small: 0.4em;
 $spacing-large: 1.4em;
 
-$breakpoint-one-column: 32em;
+$breakpoint-one-column: 40rem;
 
 $color-bg: #FFF;
 $color-fg: #333;
@@ -17,13 +17,15 @@ $color-lo: #ccc;
 @import
   "resets",
   "layout",
+  "common",
   "text",
   "figures",
   "header",
   "footer",
   "event",
+  "event-list",
   "talks",
-  "next-meetup",
-  "prev-meetup",
+  "location",
+  "start",
   "template"
 ;

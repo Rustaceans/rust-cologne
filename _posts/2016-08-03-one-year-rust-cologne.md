@@ -2,12 +2,7 @@
 title: "August Meetup"
 date: 2016-08-03 19:15:00 MEZ
 categories: meetup cologne
-location:
-  name: "Chaos Computer Club Cologne (c4) e.V."
-  street: "Heliosstr. 6a"
-  city: Köln
-meetup:
-  id: 230641492
+location: c4
 links:
   "Meetup.com": "http://www.meetup.com/RustCologne/events/230641492/"
   "German Rust forum": "https://forum.rustplatz.de/t/rust-meetup-cologne-bonn-august/151"

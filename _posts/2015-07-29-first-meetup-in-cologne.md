@@ -4,12 +4,7 @@ date: 2015-07-29 19:00:00 MEST
 categories: meetup cologne
 links:
     "Meetup.com": "http://www.meetup.com/RustCologne/events/222915034/"
-location:
-  name: "Coworking Cologne"
-  street: "An der Bottmühle 5"
-  city: Köln
-meetup:
-  id: 222915034
+location: coworking-cologne
 talks:
 - title: "What makes Rust so awesome? Introduction to Rust"
   speaker:

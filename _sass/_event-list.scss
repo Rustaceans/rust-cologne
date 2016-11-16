@@ -1,0 +1,24 @@
+.event-list {
+  list-style: none;
+  padding-left: 0;
+
+  .event-item:not(:last-child) {
+    padding-bottom: $spacing;
+    border-bottom: 1px solid $color-lo;
+    margin-bottom: $spacing;
+  }
+
+  .event-title {
+    font-size: 1rem;
+    font-weight: normal;
+
+    .title {
+      display: block;
+      font-weight: bold;
+    }
+
+    .separator {
+      display: none;
+    }
+  }
+}

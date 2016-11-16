@@ -7,12 +7,7 @@ links:
     "Rust user forum": "https://users.rust-lang.org/t/7904"
     "German Rust forum": "https://forum.rustplatz.de/t/184"
     "Planning discussion on Github": "https://github.com/Rustaceans/rust-cologne/issues/10"
-location:
-  name: "Chaos Computer Club Cologne (c4) e.V."
-  street: "Heliosstr. 6a"
-  city: Köln
-meetup:
-  id: 234651810
+location: c4
 talks:
 - title: "Requirements of Real-Time Audio Programming"
   speaker:
@@ -27,11 +22,13 @@ talks:
     twitter: marcschettke
   abstract: |
     For quite some time professional audio systems use standard ethernet to transport audio data reliable and with very low latency (real-time). However, as proprietary technology has been used, interoperability was an issue. To resolve this, the Audio Engineering Society (AES) defined a minimal set of requirements in an open standard named AES-67. Since its publication in 2013 it has been implemented by many manufacturers but still lacks an open source implementation.
-
+    
     Rust on the other hand is a modern system language and seems to be an ideal candidate for this, because it is safe, fast and can be used to develop for many targets from small microcontrollers to full-fledged high performance architectures.
-
+    
     In this talk I will give a short introduction into real-time networks for professional audio applications and the AES-67 standard. I will then walk through my ideas for an open source implementation called "rs-sixty-seven" and what challenges I see. Finally I like to collect your thoughts and suggestions.
+
 ---
+
 At the October meetup, we decided to _not_ do a meetup on the first Wednesday of November, but instead join forces with the [Open Source Audio Meetup](http://cologne.linuxaudio.org/doku.php) which is at the _third_ Wednesday (also at the c4).
 
 After the talks we'll have an open discussion about music, audio software and programming with Rust. As always, you can enjoy some drinks, meet nice people and discuss about Rust and Open Source Audio. Be prepared for an interesting mix of topics from both worlds!

@@ -1,0 +1,29 @@
+.page-home {
+  .section-headline {
+    @include label();
+    display: inline-block;
+    clear: right;
+  }
+
+  .event {
+    margin-top: 0;
+  }
+
+  .event-title {
+    margin-top: ($spacing-small / 2);
+  }
+
+  figure {
+    margin-top: $spacing;
+  }
+}
+
+.next-meetup {
+  padding-top: $spacing;
+}
+
+.future-meetups,
+.prev-meetup,
+.featured-impressions {
+  @include hr(solid);
+}
