@@ -5,12 +5,12 @@
     clear: right;
   }
 
-    background-color: $color-fg;
-    color: $color-bg;
+  .event {
+    margin-top: 0;
   }
 
   .event-title {
-    margin-top: $spacing-small;
+    margin-top: ($spacing-small / 2);
   }
 
   figure {
@@ -20,10 +20,6 @@
 
 .next-meetup {
   padding-top: $spacing;
-
-  .event {
-    margin-top: 0;
-  }
 }
 
 .future-meetups,
