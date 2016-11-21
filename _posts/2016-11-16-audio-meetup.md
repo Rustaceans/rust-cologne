@@ -13,14 +13,15 @@ talks:
   speaker:
     name: "Daniel Appelt"
     github: danielappelt
+  slides: "https://danielappelt.github.io/talk-real-time-audio-programming"
   abstract: |
     This talk will focus on the requirements of real-time audio programming. On a high-level, I would like to explain why rust seems to be a better choice for that subject than many other new generation languages.
-  slides: "https://danielappelt.github.io/talk-real-time-audio-programming"
 - title: "Low Latency Audio Transfer with AES-67 and Rust"
   speaker:
     name: "Marc Schettke"
     github: masche842
     twitter: marcschettke
+  slides: http://schettke.com/files/rs67_rust-cologne_20161115.pdf
   abstract: |
     For quite some time professional audio systems use standard ethernet to transport audio data reliable and with very low latency (real-time). However, as proprietary technology has been used, interoperability was an issue. To resolve this, the Audio Engineering Society (AES) defined a minimal set of requirements in an open standard named AES-67. Since its publication in 2013 it has been implemented by many manufacturers but still lacks an open source implementation.
     
