@@ -19,3 +19,12 @@ coworking-cologne:
   street: "An der Bottmühle 5"
   city: "Köln"
   web: "http://coworkingcologne.de"
+
+christmas-market-stadtgarten:
+  short: "Stadtgarten"
+  name: "Weihnachtsmarkt im Stadtgarten"
+  street: "Venloer Str. 40"
+  city: "Köln"
+  web: "http://www.weihnachtsmarkt-stadtgarten.de/"
+  directions: |
+    Just 2min by foot from Bahnhof West/Hans-Böckler-Platz.
