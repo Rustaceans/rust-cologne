@@ -13,6 +13,7 @@ talks:
     name: "Jan-Erik"
     github: badboy
     twitter: badboy_
+  slides: "https://badboy.github.io/rust-and-ruby/"
 ---
 We are pleased to announce another cooperative meetup, this time with the folks of Cologne.rb, the local Ruby user group.
 So join us on the _third_ Wednesday in January 2017 at Railslove (Coworking Cologne) for an evening of everything that starts with "Ru"!
