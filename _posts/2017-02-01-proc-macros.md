@@ -6,7 +6,12 @@ links:
     "Meetup.com": "https://www.meetup.com/RustCologne/events/236858848/"
     "Planning discussion on Github": "https://github.com/Rustaceans/rust-cologne/issues/22"
 location: c4
-talks: false
+talks:
+- title: "Macros 1.1"
+  slides: "https://gist.githubusercontent.com/colin-kiegel/36379706f54a03c9339e38c5e231c457/raw/ea4abd36b1d05b65dd479cd87c482e45a300a9a1/rust_macros_1.1.html"
+  speaker:
+    name: "Colin Kiegel"
+    github: colin-kiegel
 ---
 Let's get together and hack on some brand new Rust macros, shall we? :-)
 
@@ -29,3 +34,7 @@ As always, you can enjoy some drinks, meet nice people and discuss about Rust.
 
 The meetup will likely be held in German, we will however reevaluate this at the beginning
 of the evening and may switch to English if needed.
+
+- - -
+
+*Update:* This time around, our introduction included the chance for everyone to present one 'pick', i.e., something they enjoyed recently. Colin transcribed our picks [here](https://github.com/Rustaceans/rust-cologne/issues/22#issuecomment-276780833). Thanks!
