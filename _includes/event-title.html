@@ -1,5 +1,5 @@
 {% assign event = include.event %}
-<a class="event-link" href="{{ event.url | prepend: site.baseurl }}">
+<a class="event-link" href="{{ event.url | prepend: site.baseurl }}" itemprop="url">
   <span class="title" itemprop="name">{{ event.title }}</span>
 </a>
 <span class="event-in-space-time">
