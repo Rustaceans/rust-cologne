@@ -14,6 +14,23 @@
       justify-content: center;
     }
 
+    svg {
+      g, path {
+        transition: all 0.2s ease-in-out;
+        transform-origin: center center;
+      }
+
+      &:hover {
+        .cathedral {
+          fill: $color-ac;
+        }
+
+        .cogwheel {
+          transform: rotate(-2deg);
+        }
+      }
+    }
+
     @media screen and (max-width: 20rem) {
       flex-direction: column-reverse;
 
