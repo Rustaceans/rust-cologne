@@ -28,3 +28,7 @@ defaults:
 # Content settings
 future: true # we use dates for the actual meetup time, not the post publication time
 timezone: "Europe/Berlin"
+
+exclude:
+  - .vscode
+  - .gitignore
