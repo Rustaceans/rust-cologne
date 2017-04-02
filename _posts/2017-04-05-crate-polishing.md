@@ -8,6 +8,8 @@ links:
 location: c4
 talks: false
 ---
+**Update 2017-04-02:** ;-)
+
 **Update 2017-04-01:** We are very proud to announce that Gary Newvan, member of the Rust core team, and developer at Facepunch Studios, will join us! He spared no expense and effort to come from somewhere in the middle of England to our beautiful city near the Rhine, just to meet us! (And not because he is giving a workshop for a company in the area.)
 
 So, our new agenda is this: Gary will give a short talk about Building a Community Around Rust (which we are totally a part of), and after that (and some time to ask questions) we'll dive into the orignally planned crate polishing together.
