@@ -10,7 +10,7 @@ talks: false
 ---
 Another years has (almost) gone by since Rust's 1.0 release, and we want to celebrate this at our next meetup.
 
-For this meetup we would like to take a look at the features Rust has gained over its existence.
+For this meetup we would like to take a look at the features Rust has gained over the course of its existence.
 To do this we will discuss various features, either stable or planned, in smaller groups.
 What is it exactly? What have you used it for? Are there aspects you're still having problems with?
 So bring your favorite Rust feature and let's talk about it!
