@@ -8,7 +8,7 @@ links:
 location: c4
 talks: false
 ---
-Another years has (almost) gone by since Rust's 1.0 release, and we want to celebrate this at our next meetup.
+Another year has (almost) gone by since Rust's 1.0 release, and we want to celebrate this at our next meetup.
 
 For this meetup we would like to take a look at the features Rust has gained over the course of its existence.
 To do this we will discuss various features, either stable or planned, in smaller groups.
