@@ -1,5 +1,5 @@
 ---
-title: "Rust 2nd Anniversary"
+title: "Rust 2nd Anniversary Reloaded"
 date: 2017-06-07 19:15:00 CEST
 categories: meetup cologne
 links:
