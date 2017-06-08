@@ -12,6 +12,7 @@ talks:
     name: "Florian Zeitz"
     twitter: florob
     github: florob
+  slides: http://babelmonkeys.de/%7Eflorob/talks/RC-2017-06-07-inline-assembly.pdf
   abstract: |
     Rust's support for inline assembly is currently unstable. The talk will give an overview of the current unstable implementation in Rust, as well as inline assembly support available in other programming languages. stabilize would be. This will lead into a discussion about a sensible design for this feature and a way to stabilize this eventually.
 ---
