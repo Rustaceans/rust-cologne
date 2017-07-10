@@ -18,9 +18,11 @@ Are you new to Rust?
 
 No matter if yes or no, we welcome you to our next meetup!
 
-Matthias Endler is going to pick a beginner-friendly problem
+[Matthias Endler][mre] is going to pick a beginner-friendly problem
 and do some live coding for us. So you can just watch, listen
 and ask questions about it.
+
+[mre]: https://github.com/mre
 
 After that we will have our usual discussions about Rust. You
 can bring your questions + problems and see if someone can help.
