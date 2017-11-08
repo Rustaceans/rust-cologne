@@ -1,6 +1,6 @@
 ---
 title: "impl Glühwein"
-date: 2017-09-06 19:15:00 MEZ
+date: 2017-12-06 19:15:00 MEZ
 categories: meetup cologne
 links:
     "Meetup.com": "https://www.meetup.com/RustCologne/events/244487721/"
