@@ -28,7 +28,7 @@ Imagine a bazaar, where you can suggest topics and spontaneously join any discus
 We are looking forward to seeing you. :-)
 
 Yours,
-Jan-Erik, Pascal, Florian and Colin
+Pascal and Florian
 ―  
 The meetup will likely be held in German, we will however reevaluate this at the beginning of the evening and may switch to English if needed.
 ```
