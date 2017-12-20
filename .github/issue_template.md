@@ -1,8 +1,8 @@
 # ToDo
 
-- [ ] Settle for a date: **???**
+- [ ] Settle for a date and location: **Wednesday YYYY-MM-DD, 19:15 CET** at C4 (default: first Wednesday each month)
 - [ ] Send "Save the Date" info (with link to this ticket)
-- [ ] Basic Agenda
+- [ ] Basic Agenda (default: Open Space)
 - [ ] Final invitation (deadline **???**)
   - [ ] [meetup]
   - [ ] [website]
@@ -17,14 +17,11 @@
 ```markdown
 Title: CGN ###: Save The Date
 
-<INVITATION>
+Dear Rustaceans,
 
-**Wednesday YYYY-MM-DD, 19:15 CET**
+our next **open space** style Meetup will be on **Wednesday YYYY-MM-DD, 19:15 CET**.
 
-Agenda
-* ...
-
-You can enjoy some drinks, meet nice people and discuss about Rust.
+Imagine a bazaar, where you can suggest topics and spontaneously join any discussion you find interesting. It all depends on your interests. You can enjoy some drinks, meet nice people and discuss about Rust.
 
 **[You can register here](...)**.
 
