@@ -32,4 +32,6 @@ talks:
 ---
 We'll have two short talks for you, followed by the usual open discussion and mingling. We are looking forward to seeing you. :-)
 
+Please note that this meetup on the second **Monday** in March!
+
 The meetup will likely be held in German, we will however reevaluate this at the beginning of the evening and may switch to English if needed.
