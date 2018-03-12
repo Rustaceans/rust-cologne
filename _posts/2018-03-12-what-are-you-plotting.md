@@ -23,6 +23,7 @@ talks:
     name: "Florian Zeitz"
     twitter: florob
     github: florob
+  slides: "http://babelmonkeys.de/%7Eflorob/talks/RC-2018-03-12-caches-and-you.pdf"
   abstract: |
     One of the great things about Rust is that it gives you a lot of control if you need it.
     Amongst other things it gives you control over memory.
