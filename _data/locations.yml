@@ -5,8 +5,6 @@ c4:
   city: "Köln"
   web: "https://koeln.ccc.de"
   directions: |
-    ## Public transport
-
     - Via subway lines 3, 4, or 13 to "Venloer Straße/Gürtel" (exit the station towards "Heliosstr./Bezirksverwaltung")
     - Via bus lines 141, 142, or 143 to "Venloer Straße/Gürtel"
     - Via train to "Köln-Ehrenfeld" (exit the station towards "Venloer Straße")

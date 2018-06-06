@@ -1,9 +1,12 @@
 .location {
-  @extend %row;
   padding: 0;
+  
+  .location-info {
+    @extend %row;
+  }
 
-  .map,
-  .address {
+  .address,
+  .location-directions {
     @extend %half;
   }
 
@@ -23,13 +26,21 @@
   }
 
   h1 {
-    font-size: 1em;
-    line-height: 1.4;
+    @include label();
     margin-top: 0;
+    margin-bottom: $spacing;
   }
 
   .location-directions {
-    font-size: 0.9em;
+    font-size: 0.9rem;
     line-height: 1.5;
+    
+    @media screen and (max-width: $breakpoint-one-column) {
+      margin-top: 1em;
+    }
+    
+    ul:first-child {
+      margin-top: 0;
+    }
   }
 }
