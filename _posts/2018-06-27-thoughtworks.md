@@ -21,14 +21,15 @@ talks:
     A central entry point to your current project
 ---
 Our next Meetup will be on 2018-06-27, 19:15 CET. We are very happy to be
-invited to a **new location**: The meetup will be at ThoughtWorks office in Cologne
+invited to a **new location**: The meetup will be at the ThoughtWorks office in Cologne
 (Lichtstraße 43i -- just 400m from the C4).
 
 In addition to the new location, we're also quite excited to have two talks
-prepared for you! the first one, by Sebastian Thiel is an introduction to "Share
+prepared for you! In the first one, by Sebastian Thiel is an introduction to "Share
 Secrets Safely", and present a tool to share secrets within teams to avoid
 plain-text secrets. In the second talk, Niko Hellwig will talk about "HUB", a
-central entry point to your current project.
+central entry point to your current project. You maybe wondering what they have
+in common: These are both tools that the folks at ThoughtWorks have written in Rust!
 
 **[You can register here](https://www.meetup.com/RustCologne/events/vnwndpyxjbjb/)**.
 
