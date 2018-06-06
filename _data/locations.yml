@@ -28,3 +28,17 @@ christmas-market-stadtgarten:
   web: "http://www.weihnachtsmarkt-stadtgarten.de/"
   directions: |
     Just 2min by foot from Bahnhof West/Hans-Böckler-Platz.
+
+thoughtworks:
+  short: "ThoughtWorks"
+  name: "ThoughtWorks office Cologne"
+  street: "Lichtstraße 43i"
+  city: "Köln"
+  directions: |
+    - Via subway lines 3, 4, or 13 to "Venloer Straße/Gürtel" (exit the station towards "Heliosstr./Bezirksverwaltung")
+    - Via bus lines 141, 142, or 143 to "Venloer Straße/Gürtel"
+    - Via train to "Köln-Ehrenfeld" (exit the station towards "Venloer Straße")
+
+    Cross Venloer Straße and go into Heliosstraße.
+    At the end, turn right, then take the next left into Lichtstraße.
+    43i is on the left side just before the road makes a turn to the right.
