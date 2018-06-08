@@ -34,6 +34,7 @@ thoughtworks:
   name: "ThoughtWorks office Cologne"
   street: "Lichtstraße 43i"
   city: "Köln"
+  web: "https://www.thoughtworks.com/de/locations/cologne"
   directions: |
     - Via subway lines 3, 4, or 13 to "Venloer Straße/Gürtel" (exit the station towards "Heliosstr./Bezirksverwaltung")
     - Via bus lines 141, 142, or 143 to "Venloer Straße/Gürtel"
