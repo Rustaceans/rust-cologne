@@ -21,7 +21,12 @@
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="{{ site.url }}/logo.png"/>
 
-    <link rel="stylesheet" href="{{ "/styles.css" | prepend: site.baseurl }}"/>
+    <style type="text/css">
+      {% capture include_to_scssify -%}
+        {% include styles.scss %}
+      {% endcapture -%}
+      {{ include_to_scssify | scssify }}
+    </style>
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | replace:'//','/' | prepend: site.baseurl | prepend: site.url }}"/>
 </head>
