@@ -11,9 +11,18 @@
       <p>
         <a itemprop="url" href="{{location.web}}">Website</a>
       </p>
-      <a href="https://www.google.com/maps/?q={{location.street | uri_escape}},+{{location.city | uri_escape}}">
-        Show on Google Maps
-      </a>
+      <p>
+        <a href="https://www.google.com/maps/?q={{location.street | uri_escape}},+{{location.city | uri_escape}}">
+          Show on Google Maps
+        </a>
+      </p>
+      {% if location.osm %}
+      <p>
+        <a href="{{location.osm}}">
+          Show on OpenStreetMap
+        </a>
+      </p>
+      {% endif %}
     </address>
     <div class="location-directions">
       {% if location.directions %}

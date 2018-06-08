@@ -4,6 +4,7 @@ c4:
   street: "Heliosstr. 6a"
   city: "Köln"
   web: "https://koeln.ccc.de"
+  osm: "https://www.openstreetmap.org/node/1446603282"
   directions: |
     - Via subway lines 3, 4, or 13 to "Venloer Straße/Gürtel" (exit the station towards "Heliosstr./Bezirksverwaltung")
     - Via bus lines 141, 142, or 143 to "Venloer Straße/Gürtel"
@@ -17,6 +18,7 @@ coworking-cologne:
   street: "An der Bottmühle 5"
   city: "Köln"
   web: "http://coworkingcologne.de"
+  osm: https://www.openstreetmap.org/relation/4442996
 
 christmas-market-stadtgarten:
   short: "Stadtgarten"
@@ -24,6 +26,7 @@ christmas-market-stadtgarten:
   street: "Venloer Str. 40"
   city: "Köln"
   web: "http://www.weihnachtsmarkt-stadtgarten.de/"
+  osm: "https://www.openstreetmap.org/relation/1151574"
   directions: |
     Just 2min by foot from Bahnhof West/Hans-Böckler-Platz.
 
@@ -33,6 +36,7 @@ thoughtworks:
   street: "Lichtstraße 43i"
   city: "Köln"
   web: "https://www.thoughtworks.com/de/locations/cologne"
+  osm: "https://www.openstreetmap.org/node/3714692099"
   directions: |
     - Via subway lines 3, 4, or 13 to "Venloer Straße/Gürtel" (exit the station towards "Heliosstr./Bezirksverwaltung")
     - Via bus lines 141, 142, or 143 to "Venloer Straße/Gürtel"
