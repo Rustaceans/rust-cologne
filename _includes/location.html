@@ -1,24 +1,35 @@
 {% assign location = site.data.locations[include.location] %}
-<section class="location">
-  <aside class="map">
-    <div class="map-container">
-      <iframe width="600" height="450" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key={{site.google_maps_api_key | uri_escape}}&amp;q={{location.street | uri_escape}},+{{location.city | uri_escape}}" allowfullscreen> </iframe>
+<section itemprop="location" itemscope itemtype="http://schema.org/Place" class="location">
+  <h1>Location: <span itemprop="name">{{location.name}}</span></h1>
+  
+  <div class="location-info">
+    <address class="address">
+      <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <p itemprop="streetAddress">{{location.street}}</p>
+        <p itemprop="addressLocality">{{location.city}}</p>
+      </div>
+      <p>
+        <a itemprop="url" href="{{location.web}}">Website</a>
+      </p>
+      <p>
+        <a href="https://www.google.com/maps/?q={{location.street | uri_escape}},+{{location.city | uri_escape}}">
+          Show on Google Maps
+        </a>
+      </p>
+      {% if location.osm %}
+      <p>
+        <a href="{{location.osm}}">
+          Show on OpenStreetMap
+        </a>
+      </p>
+      {% endif %}
+    </address>
+    <div class="location-directions">
+      {% if location.directions %}
+      <div class="text">
+        {{ location.directions | markdownify }}
+      </div>
+      {% endif %}
     </div>
-  </aside>
-
-  <address itemprop="location" itemscope itemtype="http://schema.org/Place" class="address">
-    <h1 itemprop="name">{{location.name}}</h1>
-    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-      <p itemprop="streetAddress">{{location.street}}</p>
-      <p itemprop="addressLocality">{{location.city}}</p>
-    </div>
-    <p>
-      <a itemprop="url" href="{{location.web}}">Website</a>
-    </p>
-    {% if location.directions %}
-    <div class="location-directions text">
-      {{ location.directions | markdownify }}
-    </div>
-    {% endif %}
-  </address>
+  </div>
 </section>
