@@ -32,3 +32,4 @@ timezone: "Europe/Berlin"
 exclude:
   - .vscode
   - .gitignore
+  - meetup-orga
