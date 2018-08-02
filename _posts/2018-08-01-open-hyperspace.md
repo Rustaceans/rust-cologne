@@ -12,6 +12,8 @@ talks:
     name: "Matthias Endler"
     twitter: matthiasendler
     github: mre
+  slides: "https://speakerdeck.com/mre/hyperjson-the-journey-towards-faster-safer-json-parsing-in-python-using-rust"
+  video: "https://media.ccc.de/v/rustcologne.2018.08.hyperjson"
   abstract: |
     During a recent Python Hackathon in Düsseldorf, Matthias somehow managed to
     sneak in some Rust code while writing a fast, safe Python module for encoding

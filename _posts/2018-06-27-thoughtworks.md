@@ -11,6 +11,7 @@ talks:
   speaker:
     name: "Sebastian Thiel"
     github: Byron-TW
+  video: "https://media.ccc.de/v/rustcologne.2018.06.share-secrets-safely"
   abstract: |
     'Share Secrets Safely' scratches a particular itch as it provides the tooling required to use GPG in teams with great user experience, while providing all tooling necessary to introduce said shared secrets into their final destination without them ever touching disk. I will particularly highlight the way the project is structured, and tested, showing that 'journey' level testing is now affordable thanks to Rust.
 - title: "The HUB"
