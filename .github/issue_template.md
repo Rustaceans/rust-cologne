@@ -10,7 +10,6 @@
   - [ ] [community calendar]
   - [ ] [reddit]
   - [ ] [rust-lang forum]
-  - [ ] [rustplatz]
 
 # Invitation draft
 
