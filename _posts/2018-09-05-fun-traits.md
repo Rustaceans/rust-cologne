@@ -12,6 +12,7 @@ talks:
     name: "Pascal Hertleif"
     twitter: killercup
     github: killercup
+  slides: "https://killercup.github.io/presentation-traits-from-the-ground-up/index.html"
   abstract: |
     People coming from other languages can find a lot of familiar aspects in Rust's traits:
     Traits are somewhat like interfaces, and also somewhat like type classes, and also like… classes?
@@ -22,6 +23,7 @@ talks:
     name: "Florian Zeitz"
     twitter: florob
     github: florob
+  slides: "http://babelmonkeys.de/%7Eflorob/talks/RC-2018-09-05-fn-traits.pdf"
   abstract: |
     This talk will explain
     how you can use the `Fn*` traits
