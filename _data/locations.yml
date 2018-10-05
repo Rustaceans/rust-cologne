@@ -45,3 +45,20 @@ thoughtworks:
     Cross Venloer Straße and go into Heliosstraße.
     At the end, turn right, then take the next left into Lichtstraße.
     43i is on the left side just before the road makes a turn to the right.
+
+cisco:
+  short: "Cisco"
+  name: "Cisco Office Cologne"
+  street: "Grosse Sandkaul 2"
+  city: "Köln"
+  web: "https://goo.gl/maps/GqjM5Tx7hhn"
+  osm: "https://www.openstreetmap.org/node/3411731318"
+  directions: |
+    - Via train to Cologne central station (Köln Hauptbahnhof) and then
+    - Via tram line 5 to Heumarkt
+    - Or, walk for about 10 minutes from central station, and 6 minutes from Neumarkt
+
+    The Office is in the same building as the Dorint Hotel and the Hard Rock
+    Cafe. The entrance is on the west side of the building facing Saturn.
+    
+    To find it on Google Maps, look for "ParStream".
