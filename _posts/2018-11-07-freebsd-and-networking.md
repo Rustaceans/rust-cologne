@@ -38,5 +38,4 @@ Pascal and Florian
 
 - - -
 
-The meetup will likely be held in German, we will however reevaluate this at the
-beginning of the evening and may switch to English if needed.
+The meetup will be held in English, but a lot of attendees will understand German, too.
