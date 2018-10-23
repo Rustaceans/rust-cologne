@@ -23,7 +23,7 @@ talks:
     2018 is the year of WebAssembly. But did you know, you can do more than "Web" with it? In this talk we'll investigate how wasm allows [substrate](https://github.com/paritytech/substrate/), the Rust blockchain framework that will run [Polkadot](https://polkadot.network), to provide a hot-upgradable, fully configurable blockchain runtime that runs at native speed (most of the time).
 ---
 On **Wednesday, November 7, 2018** we'll be back at the C4!
-Opening at 19:15, we welcome anyone to join is in discussing Rust and related topics.
+Opening at 19:15, we welcome anyone to join us in discussing Rust and related topics.
 
 This time, we have two exciting talks for you.
 Luca, FreeBSD port committer, will talk about what it takes to package a Rust project on FreeBSD.
