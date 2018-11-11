@@ -12,6 +12,8 @@ talks:
     name: "Luca Pizzamiglio"
     twitter: pizzamig
     github: pizzamig
+  slides: "/assets/20181108-freebsd.pdf"
+  video: https://www.youtube.com/watch?v=E-knWiiiUO0
   abstract: |
     FreeBSD: What is it? Rust on FreeBSD: State of the art. How to build a FreeBSD package for a Rust project.
 - title: "WASM in the wild: hot-upgradable runtime in substrate thanks to Rust"
@@ -19,6 +21,7 @@ talks:
     name: "Benjamin Kampmann"
     twitter: gnunicornBen
     github: gnunicorn
+  video: https://www.youtube.com/watch?v=ULQRGXziF3s
   abstract: |
     2018 is the year of WebAssembly. But did you know, you can do more than "Web" with it? In this talk we'll investigate how wasm allows [substrate](https://github.com/paritytech/substrate/), the Rust blockchain framework that will run [Polkadot](https://polkadot.network), to provide a hot-upgradable, fully configurable blockchain runtime that runs at native speed (most of the time).
 ---
