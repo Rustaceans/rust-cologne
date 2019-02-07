@@ -3,7 +3,7 @@ title: "Open Source Audio Meetup"
 date: 2016-11-16 19:00:00 MEZ
 categories: meetup cologne
 links:
-    "Meetup.com": "http://www.meetup.com/RustCologne/events/234651810/"
+    "Meetup.com": "https://www.meetup.com/RustCologne/events/234651810/"
     "Rust user forum": "https://users.rust-lang.org/t/7904"
     "German Rust forum": "https://forum.rustplatz.de/t/184"
     "Planning discussion on Github": "https://github.com/Rustaceans/rust-cologne/issues/10"
@@ -21,7 +21,7 @@ talks:
     name: "Marc Schettke"
     github: masche842
     twitter: marcschettke
-  slides: http://schettke.com/files/rs67_rust-cologne_20161115.pdf
+  slides: https://schettke.com/files/rs67_rust-cologne_20161115.pdf
   abstract: |
     For quite some time professional audio systems use standard ethernet to transport audio data reliable and with very low latency (real-time). However, as proprietary technology has been used, interoperability was an issue. To resolve this, the Audio Engineering Society (AES) defined a minimal set of requirements in an open standard named AES-67. Since its publication in 2013 it has been implemented by many manufacturers but still lacks an open source implementation.
     

@@ -24,7 +24,7 @@ talks:
     name: "Florian Zeitz"
     twitter: florob
     github: florob
-  slides: "http://babelmonkeys.de/%7Eflorob/talks/RC-2018-09-05-fn-traits.pdf"
+  slides: "https://babelmonkeys.de/%7Eflorob/talks/RC-2018-09-05-fn-traits.pdf"
   video: "https://www.youtube.com/watch?v=9PIn4suU3jM"
   abstract: |
     This talk will explain

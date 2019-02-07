@@ -3,7 +3,7 @@ title: "impl Glühwein for RustCologne"
 date: 2016-12-07 19:00:00 MEZ
 categories: meetup cologne
 links:
-    "Meetup.com": "http://www.meetup.com/RustCologne/events/235656237/"
+    "Meetup.com": "https://www.meetup.com/RustCologne/events/235656237/"
     "Planning discussion on Github": "https://github.com/Rustaceans/rust-cologne/issues/16"
 location: christmas-market-stadtgarten
 talks: false

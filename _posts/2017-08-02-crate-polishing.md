@@ -34,6 +34,6 @@ The meetup will likely be held in German, we will however reevaluate this at the
 beginning of the evening and may switch to English if needed.
 
 [Libz Blitz]: https://internals.rust-lang.org/t/rust-libz-blitz/5184
-[rustfest]: http://blog.rustfest.eu/libz-blitz
+[rustfest]: https://blog.rustfest.eu/libz-blitz
 [planning issue]: https://github.com/Rustaceans/rust-cologne/issues/35
 [meetup]: https://www.meetup.com/RustCologne/events/241358482/

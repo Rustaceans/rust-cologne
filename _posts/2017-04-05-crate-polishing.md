@@ -31,4 +31,4 @@ have more details!~~
 **Update 2017-04-02:** ;-)
 
 [1]: https://github.com/Rustaceans/rust-cologne/issues/29
-[2]: http://rust.cologne/2016/06/06/rust-anniversary-part-2.html
+[2]: https://rust.cologne/2016/06/06/rust-anniversary-part-2.html

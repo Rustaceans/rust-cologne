@@ -4,7 +4,7 @@ date: 2016-08-03 19:15:00 MEZ
 categories: meetup cologne
 location: c4
 links:
-  "Meetup.com": "http://www.meetup.com/RustCologne/events/230641492/"
+  "Meetup.com": "https://www.meetup.com/RustCologne/events/230641492/"
   "German Rust forum": "https://forum.rustplatz.de/t/rust-meetup-cologne-bonn-august/151"
 talks: false
 ---
