@@ -1,6 +1,6 @@
 ---
 title: "A Sizeable Matter"
-date: 2019-09-03 19:15:00 MESZ
+date: 2019-04-03 19:15:00 MESZ
 categories: meetup cologne
 links:
     "Meetup.com": "https://www.meetup.com/de-DE/RustCologne/events/vnwndpyzgbfb/"
