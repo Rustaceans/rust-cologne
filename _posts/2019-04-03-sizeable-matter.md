@@ -41,8 +41,6 @@ known at runtime.
 
 Afterwards there will be time for socializing and open discussion over some drinks.
 
-**[You can register here](https://www.meetup.com/de-DE/RustCologne/events/vnwndpyzgbfb/)**.
-
 We are looking forward to seeing you. :-)
 
 Yours,
