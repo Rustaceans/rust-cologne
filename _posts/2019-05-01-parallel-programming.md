@@ -23,7 +23,7 @@ we're happy to announce that our next meetup will be on **Wednesday, May 1, 2019
 
 This time around we'll look into Rust's capabilities surrounding parallel and concurrent programming.
 The evening will start of with a talk describing these capabilities and the practical application thereof.
-After that we have prepared some beginner to intermediate exercises in parallel programming, that can be solved
+After that we have prepared some beginner to intermediate level exercises in parallel programming which can be solved
 alone or in small groups. Help with working these out will be available. We also expect more experienced participants
 to support those new to the language.
 
