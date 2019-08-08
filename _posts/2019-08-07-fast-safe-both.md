@@ -22,6 +22,7 @@ talks:
     name: "Florian Zeitz"
     twitter: florob
     github: florob
+  slides: "https://babelmonkeys.de/~florob/talks/RC-2019-08-07-rust-defined.pdf"
   abstract: |
     C is notorious for its undefined behavior. It is relatively easy to void all program behavior
     by making a small error. Rust has no undefined behavior in its safe subset. Yet it has to deal
