@@ -12,6 +12,7 @@ talks:
     name: "Matthias Endler"
     twitter: matthiasendler
     github: mre
+  slides: "https://github.com/mre/wasm/"
   abstract: |
     WebAssembly has the potential to change the way we write and deploy software in the future
     and Rust is in a great position to become the best language to target WebAssembly.
