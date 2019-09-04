@@ -1,6 +1,6 @@
 ---
 title: "Open Space"
-date: 2019-09-03 19:15:00 MEZ
+date: 2019-09-04 19:15:00 MEZ
 categories: meetup cologne
 links:
     "Meetup.com": "https://www.meetup.com/RustCologne/events/tnrnbryzmbgb/"
