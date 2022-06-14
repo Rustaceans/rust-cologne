@@ -4,18 +4,22 @@
   
   <div class="location-info">
     <address class="address">
+      {% if location.street %}
       <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
         <p itemprop="streetAddress">{{location.street}}</p>
         <p itemprop="addressLocality">{{location.city}}</p>
       </div>
+      {% endif %}
       <p>
         <a itemprop="url" href="{{location.web}}">Website</a>
       </p>
+      {% if location.street %}
       <p>
         <a href="https://www.google.com/maps/?q={{location.street | uri_escape}},+{{location.city | uri_escape}}">
           Show on Google Maps
         </a>
       </p>
+      {% endif %}
       {% if location.osm %}
       <p>
         <a href="{{location.osm}}">
