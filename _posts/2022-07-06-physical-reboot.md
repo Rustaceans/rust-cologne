@@ -1,6 +1,6 @@
 ---
 title: "Physical Reboot: WASM-talk and beginner-friendly live coding"
-date: 2020-07-06 19:15:00 MESZ
+date: 2022-07-06 19:15:00 MESZ
 categories: meetup cologne
 links:
     "Meetup.com": "https://www.meetup.com/rustcologne/events/286890733/"
