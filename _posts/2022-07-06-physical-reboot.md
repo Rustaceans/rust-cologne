@@ -18,6 +18,7 @@ talks:
   speaker:
     name: "Kai"
     github: kawogi
+  slides: "https://github.com/kawogi/matrix-digital-rain"
   abstract: |
     We'll learn how idiomatic Rust looks like and how `clippy` can teach you to become a better rustacean over time.
 ---
