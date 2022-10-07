@@ -6,7 +6,13 @@ links:
     "Meetup.com": "https://www.meetup.com/de-DE/rustcologne/events/287924732"
     "Planning discussion on Github": "https://github.com/Rustaceans/rust-cologne/issues/97"
 location: c4
-talks: false
+talks:
+- title: "Rust’s Ownership Model"
+  speaker:
+    name: "Florian Zeitz"
+    twitter: florob
+    github: florob
+  slides: "https://babelmonkeys.de/~florob/talks/RC-2022-08-24-rust-ownership.pdf"
 ---
 Dear Rustaceans,
 
