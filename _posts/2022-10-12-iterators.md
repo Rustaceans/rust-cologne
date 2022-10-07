@@ -30,9 +30,13 @@ We are looking forward to seeing you. :-)
 
 Yours,
 Florian and Kai
-―  
+
+---
+
 The meetup will likely be held in German, we will however reevaluate this at the beginning of the evening and may switch to English if needed.
-―
+
+---
+
 Due to COVID-19 still being around there are some precautions we feel are necessary to make everyone at ease.
 
 We have restricted the maximum number of participants to ensure social distancing is possible.
