@@ -14,6 +14,7 @@ talks:
     github: florob
   abstract: |
     This talk will give a short overview over using serde, the most popular serialization and deserialization framework for Rust.
+  slides: "http://babelmonkeys.de/~florob/talks/RC-2023-05-10-serde.pdf"
 ---
 Dear Rustaceans,
 
