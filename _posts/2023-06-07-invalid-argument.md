@@ -26,6 +26,7 @@ talks:
     languages. Rust is virtually free of it in its safe subset. However, the unsafe subset can
     still invoke undefined behavior. This talk will explore how (unsafe) Rust compares to C in terms
     of its undefined behavior.
+  slides: "https://babelmonkeys.de/~florob/talks/RC-2023-06-07-unsafe-undefined.pdf"
 ---
 Dear Rustaceans,
 
