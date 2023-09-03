@@ -5,7 +5,6 @@ baseurl: ""
 url: "http://rust.cologne"
 author:
   name: Rust Cologne
-  twitter: RustCologne
   github: Rustaceans
   meetup: RustCologne
   email: rust.cologne@gmail.com
