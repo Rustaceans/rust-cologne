@@ -1,6 +1,6 @@
 ---
 title: "Open Space"
-date: 2023-09-13 19:15:00 MESZ
+date: 2023-10-04 19:15:00 MESZ
 categories: meetup cologne
 links:
     "Meetup.com": "https://www.meetup.com/rustcologne/events/296379471/"
