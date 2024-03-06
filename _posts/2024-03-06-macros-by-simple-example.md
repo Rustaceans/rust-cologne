@@ -6,6 +6,15 @@ links:
     "Meetup.com": "https://www.meetup.com/rustcologne/events/299530888/"
     "Planning discussion on Github": "https://github.com/Rustaceans/rust-cologne/issues/115"
 location: c4
+talks:
+- title: "macro_rules!"
+  speaker:
+    name: "Florian Zeitz"
+    twitter: florob
+    github: florob
+  abstract: |
+    This talk will discuss the basics of declarative macros.
+  slides: "http://babelmonkeys.de/~florob/talks/RC-2024-03-06-macro-rules.pdf"
 ---
 Dear Rustaceans,
 
