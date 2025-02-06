@@ -21,6 +21,7 @@ talks:
   abstract: |
     There are many options to parse binary formats. While many of them copy the parsed data over into a new struct, it can be very efficent to keep the data in place.
     This talk introduces the zerocopy crate as an option for doing so and discusses how it provides a safer way to this approach than C code.
+  slides: "https://babelmonkeys.de/~florob/talks/RC-2025-02-05-zerocopy-parsing.pdf"
 ---
 _(The meetup will likely be held in German but we'll switch to English if needed.)_
 
