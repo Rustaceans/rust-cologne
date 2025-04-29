@@ -1,5 +1,5 @@
 ---
-title: "Rust in March: Rust Embedded, Show and Tell"
+title: "Rust in April: Rust Embedded, Show and Tell"
 date: 2025-04-02 19:15:00 MESZ
 categories: meetup cologne
 links:
