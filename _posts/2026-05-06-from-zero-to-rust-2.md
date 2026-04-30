@@ -1,5 +1,5 @@
 ---
-title: "Rust in April: From Zero to Rust"
+title: "Rust in May: Rust for Starters, Part 2"
 date: 2026-05-06 19:15:00 MESZ
 categories: meetup cologne
 links:
