@@ -19,7 +19,7 @@ you are hereby warmly invited to join the next Rust Cologne meetup. Whether you 
 
 We commonly open up with a brief summary of noteworthy changes in the Rust ecosystem. Be it updates to the language itself, public events, its impact on other projects and languages, …
 
-In this meetup we'll talk about Rust macros. Macros are a measure to simplify repetitive code, remove boilerplate, create domain specific languages or get around language limitations. There are multiple flavors available and each has their own up- and downsides. We'll show how to use these methods by creating examples, see how the compiler builds and runs procedural macros and how the rust-analyzer can assist when developing with macros.
+This time we'll explore the depths of Rust's standard library. We'll learn about the most important modules, some niche features (intrinsics), the `core`, `alloc`, … subsets and how to stay up to date with recent changes.
 
 As usual, the remaining time is about whatever _you_ want to talk about!
 
