@@ -1,0 +1,36 @@
+---
+title: "Rust in December: Streaming Glühwein"
+date: 2026-12-02 19:15:00 MEZ
+categories: meetup cologne
+links:
+    "Meetup.com": "https://www.meetup.com/rustcologne/events/317564826/"
+    "Planning discussion on Github": "https://github.com/Rustaceans/rust-cologne/issues/147"
+location: c4
+---
+
+Rust Cologne is a monthly meetup dealing with everything Rust.
+This time we'll have a talk about how to efficiently work with byte streams, tackle the first "Advent of Code" challenge and have some Glühwein.
+
+_(The meetup will likely be held in German but we'll switch to English if needed.)_
+
+Dear Rustacean,
+
+you are hereby warmly invited to join the next Rust Cologne meetup. Whether you want to speed up your python code, write a web service, need interop with your C++-codebase, cross-compile for a microcontroller, write an emulator, … we've got you covered!
+
+We commonly open up with a brief summary of noteworthy changes in the Rust ecosystem. Be it updates to the language itself, public events, its impact on other projects and languages, …
+
+_olpa_ will open up with a talk about concepts and patterns of how to efficiently process and transform byte streams.
+After that, we'll have a look at the first challenge of [Advent Of Code](https://adventofcode.com/) which is usually a beginner-friendly topic - make sure to bring a laptop if you want to actively participate.
+
+As usual, the remaining time is about whatever _you_ want to talk about - and of course there will be Glühwein :)
+
+Always wanted to know why Rust is harder to learn than other popular languages or why it lacks a certain feature? When is it appropriate to rewrite a project in Rust? Is the compiler really that slow and are the binaries really that big? Do all those safety guarantees have an impact on the performance? Fetch a drink and let's find out.
+
+**[You can register here](https://www.meetup.com/rustcologne/events/317564826/)**.
+
+See you soon!
+
+Yours,
+Florian and Kai
+- - -
+If you have a topic you'd like to talk about, please [let us know in advance](https://github.com/Rustaceans/rust-cologne/issues/147). This way we can make sure there's a time-slot for you and maybe announce it officially. Thank you.
